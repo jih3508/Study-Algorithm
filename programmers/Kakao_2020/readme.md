@@ -1,6 +1,12 @@
 # 2020Kakao fist Coding Test
 ## 1.문자열 압축하기 → 리스트 순회
-#####
+```
+1. 반복문 (for)문 사용
+  for x in data:
+2. for x in range(start, stop, step): start부터 시작해서 step만큼 건너 뛰며 stop 까지 증가
+3. 남아 있는 문자열 처리
+4. 비교하고 가장 짧은 압축 문자열로 저장
+```
 ---
 ## 2.괄호 변환 → recursive
 ## 3.자물쇠와 열괴 → 2차원 
