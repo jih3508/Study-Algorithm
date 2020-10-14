@@ -1,7 +1,7 @@
 # 2020Kakao fist Coding Test
 ## 1.문자열 압축하기 → 리스트 순회
 ```
-1. 반복문 (for)문 사용
+1. 리스트 순회 할 때 반복문 (for)문 사용
   for x in data:
 2. for x in range(start, stop, step): start부터 시작해서 step만큼 건너 뛰며 stop 까지 증가
 3. 남아 있는 문자열 처리
