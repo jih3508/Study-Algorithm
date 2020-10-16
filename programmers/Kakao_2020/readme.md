@@ -5,6 +5,7 @@
 - 인덱싱(Indexing): 인덱스 값을 입력하며 리스트의 특정한 원소에 접근할 때 사용
 - 슬라이싱(Slicing): 연속적인 위치를 갖는 원소들을 가져올 때 사용
 - 리스트는 일반적으로 0번 방부터 
+※문제 풀이
 1. 리스트 순회 할 때 반복문 (for)문 사용
   for x in data:
 2. for x in range(start, stop, step): start부터 시작해서 step만큼 건너 뛰며 stop 까지 증가
