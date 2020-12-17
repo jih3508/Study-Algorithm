@@ -1,4 +1,4 @@
-# 2020Kakao fist Coding Test
+# 2020Kakao Blind Coding Test
 ## 1.문자열 압축하기 → 리스트 순회
 ```
 - 리스트: 대괄호([]) 안에 원소를 넣어 초기화하며, 쉼표(,)로 원소를 구분
