@@ -10,4 +10,4 @@
 ### 2020Kakao fist Coding Test
 ### Level 1
 ---
-## 매일코딩테스트
+## 매일프로그래밍
