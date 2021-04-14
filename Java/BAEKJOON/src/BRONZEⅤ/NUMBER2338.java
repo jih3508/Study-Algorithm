@@ -1,13 +1,11 @@
-package TestCode;
+package BRONZE¥´;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.math.BigInteger;
-import java.util.StringTokenizer;
 
-public class Main {
-
+public class NUMBER2338 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BigInteger A = new BigInteger(br.readLine());
@@ -17,4 +15,5 @@ public class Main {
 		System.out.println(A.subtract(B));
 		System.out.println(A.multiply(B));
 	}
+
 }
