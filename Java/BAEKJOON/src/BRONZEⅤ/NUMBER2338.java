@@ -15,5 +15,4 @@ public class NUMBER2338 {
 		System.out.println(A.subtract(B));
 		System.out.println(A.multiply(B));
 	}
-
 }
