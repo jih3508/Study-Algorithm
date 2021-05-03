@@ -13,7 +13,6 @@ public class NUMBER5554 {
 		for(int i = 0; i< 4; i++) {
 			sum += Integer.parseInt(br.readLine());
 		}
-		
 		System.out.println(sum / 60);
 		System.out.println(sum % 60);
 	}
