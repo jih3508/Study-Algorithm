@@ -20,4 +20,4 @@ for i in range(n):
 for i in range(10001):
     if array[i] != 0:
         for j in range(array[i]):
-            print(j)
+            print(i)
