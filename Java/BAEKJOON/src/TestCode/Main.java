@@ -11,11 +11,19 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+<<<<<<< HEAD
 		BigInteger A = new BigInteger(br.readLine());
 		BigInteger B = new BigInteger(br.readLine());
 		
 		
 		System.out.println(A.add(B).divide(new BigInteger("2")));
 		System.out.println(A.subtract(B).divide(new BigInteger("2")));
+=======
+		int a = Integer.parseInt(br.readLine());
+		int b = Integer.parseInt(br.readLine());
+				
+		System.out.println((a+b)/2);
+		System.out.println((a-b)/2);
+>>>>>>> 71821374993be27b2d6767293e9ff44b62571d5d
 	}
 }
