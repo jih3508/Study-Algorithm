@@ -10,6 +10,7 @@
 ### Silver Ⅳ
 ### Silver Ⅲ
 ### Silver Ⅱ
+### Silver Ⅰ
 ---
 ## Coding Star
 ### Gold2
