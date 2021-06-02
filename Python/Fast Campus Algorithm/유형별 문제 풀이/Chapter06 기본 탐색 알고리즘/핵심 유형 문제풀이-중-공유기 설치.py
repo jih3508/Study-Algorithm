@@ -9,8 +9,9 @@ array = []
 for _ in range(n):
     array.append(int(input()))
 array = sorted(array)
+gap = [array[i+1] - array[i] for i in range(n - 1)] # 각 구간 차이를 구한다.
 
-start = array[1] - array[0]
+start = min(gap)
 end = array[-1] - array[0]
 result = 0
 
