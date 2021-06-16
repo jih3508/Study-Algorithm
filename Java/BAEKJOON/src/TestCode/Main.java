@@ -22,8 +22,6 @@ public class Main {
 			a = Integer.parseInt(st.nextToken());
 			b = Integer.parseInt(st.nextToken());
 			System.out.println("Case #" + i + ": " + (a+ b) );
-		}
-		
-		
+		}	
 	}
 }
