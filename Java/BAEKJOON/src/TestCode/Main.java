@@ -14,14 +14,16 @@ public class Main {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int n = Integer.parseInt(br.readLine());
-		StringBuilder sb = new StringBuilder();
+		StringTokenizer st;
+		int a, b;
 		
-		br.lines().forEach(s->{
-			int i = s.indexOf(" ");
-			sb.append(Integer.parseInt(s.substring(0, i)) + Integer.parseInt(s.substring(i +1))).append("\n");
-		});
-		br.close();
-		System.out.println(sb);
+		for(int i = 1; i < n + 1; i++) {
+			st = new StringTokenizer(br.readLine());
+			a = Integer.parseInt(st.nextToken());
+			b = Integer.parseInt(st.nextToken());
+			System.out.println("Case #" + i + ": " + (a+ b) );
+		}
+		
 		
 	}
 }
