@@ -9,9 +9,9 @@ now_count = 1e9
 for i in range(min_value, max_value + 1):
     ground_count = 0
     count = b
-    for arr in array:
-        for j in arr:
-            h = j - i
+    for x in range(n):
+        for y in range(m):
+            h = array[x][y] - i
             count += h
             ground_count += -h if h < 0 else h * 2
     if count >= 0 and now_count >= ground_count:
