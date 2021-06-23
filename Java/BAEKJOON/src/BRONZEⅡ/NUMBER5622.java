@@ -41,5 +41,4 @@ public class NUMBER5622 {
 		}
 		System.out.println(count);
     }
-
 }
