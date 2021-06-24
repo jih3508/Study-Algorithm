@@ -1,19 +1,13 @@
-package TestCode;
+package SILVER¥´;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.math.BigInteger;
-import java.time.LocalDate;
-import java.util.Arrays;
 import java.util.Set;
-import java.util.StringTokenizer;
 
-public class Main {
-	
-	public static void main(String[] args) throws IOException {
-    	
+public class NUMBER1316 {
+
+	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String word, subword;
 		int n = Integer.parseInt(br.readLine());
@@ -37,5 +31,6 @@ public class Main {
 			}
 		}
 		System.out.println(count);
-    }
+	}
+
 }
