@@ -15,9 +15,17 @@ public class Main {
 	public static void main(String[] args) throws IOException {
     	
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine());
-		BigInteger A = new BigInteger(st.nextToken());
-		A = A.add(new BigInteger(st.nextToken()));
-		System.out.println(A.add(new BigInteger(st.nextToken())));
+		int n = Integer.parseInt(br.readLine());
+		int i = 0;
+		while (i*(i+1)/2 < n) {
+			i++;
+		}
+		int k = n - i*(i-1)/2;
+		i++;
+		if ((i-1)%2 == 0) {
+			System.out.println(k + "/" + (i-k));
+		}else {
+			System.out.println((i-k) + "/" + k);
+		}
     }
 }
