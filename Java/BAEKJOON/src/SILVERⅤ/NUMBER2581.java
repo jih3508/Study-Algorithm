@@ -1,19 +1,13 @@
-package TestCode;
+package SILVER¥´;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.math.BigInteger;
-import java.time.LocalDate;
 import java.util.ArrayList;
 
-import java.util.StringTokenizer;
+public class NUMBER2581 {
 
-
-public class Main {
-	
-	public static void main(String[] args) throws IOException {
-    	
+	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int M = Integer.parseInt(br.readLine());
 		int N = Integer.parseInt(br.readLine());
@@ -54,5 +48,6 @@ public class Main {
 			System.out.println(array.stream().reduce(0,(num1, num2)->num1+num2));
 			System.out.println(array.get(0));
 		}
-    }
+	}
+
 }
