@@ -1,19 +1,12 @@
-package TestCode;
+package SILVER¥³;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.math.BigInteger;
-import java.time.LocalDate;
-import java.util.ArrayList;
 
-import java.util.StringTokenizer;
+public class NUMBER11163 {
 
-
-public class Main {
-	
-	public static void main(String[] args) throws IOException {
-    	
+	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int N = Integer.parseInt(br.readLine());
 		int i = 2;
@@ -25,6 +18,6 @@ public class Main {
 				i++;
 			}
 		}
-			
-    }
+	}
+
 }
