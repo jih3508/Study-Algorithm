@@ -1,11 +1,11 @@
-package TestCode;
+package SILVER¥±;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class Main {
+public class NUMBER4948 {
 	
 	public static void main(String[] args) throws IOException {
     	
@@ -30,4 +30,5 @@ public class Main {
 			System.out.println(count == 0 ? 1 : count);
 		}
     }
+
 }
