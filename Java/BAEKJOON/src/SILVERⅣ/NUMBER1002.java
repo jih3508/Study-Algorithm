@@ -1,14 +1,12 @@
-package TestCode;
+package SILVERⅣ;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.OptionalDouble;
 import java.util.StringTokenizer;
 
-public class Main {
-	
+public class NUMBER1002 {
+
 	public static void main(String[] args) throws IOException {
     	
 		int point[][] = new int[3][3];
@@ -34,7 +32,6 @@ public class Main {
 	public static int tangent_point(int x1, int y1, int r1, int x2, int y2, int r2) {
 		int distance_pow = (int)(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));	// 중점간 거리 distance의 제곱 
 		 
-		 
 		// case 1 : 중점이 같으면서 반지름도 같을 경우
 		if(x1 == x2 && y1 == y2 && r1 == r2) {
 			return -1;
@@ -55,7 +52,6 @@ public class Main {
 			return 1;
 		}
         
-		
 		// case 3-2 : 외접할 때 
 		else if(distance_pow == Math.pow(r1 + r2, 2)) {
 			return 1;
