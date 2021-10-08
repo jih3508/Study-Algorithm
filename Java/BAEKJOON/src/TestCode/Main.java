@@ -3,20 +3,27 @@ package TestCode;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.OptionalDouble;
-import java.util.StringTokenizer;
-
+import java.util.*;
 public class Main {
-	
-	public static void main(String[] args) throws IOException {
-    	
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine());
-		int n = Integer.parseInt(st.nextToken());
-		int m = Integer.parseInt(st.nextToken());
-		int k = Integer.parseInt(st.nextToken());
-		System.out.println((k / m) + " " + (k % m));
-    }
-	
+     static StringBuilder sb = new StringBuilder();
+     static int count = 0;
+     
+     public static void main(String[] args) throws IOException{
+    	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    	hanoiTop(Integer.parseInt(br.readLine()), 1, 2, 3);
+    	System.out.println(count);
+    	System.out.println(sb.toString());
+     }
+     
+     public static void hanoiTop(int n, int a, int b, int c) {
+    	 if (n == 1) {
+    		 sb.append(a + " " + c).append("\n");
+    		 count +=1;
+    		 return;
+    	 }
+    	 hanoiTop(n - 1, a, c, b);
+    	 sb.append(a + " " + c).append("\n");
+    	 count +=1;
+    	 hanoiTop(n - 1, b, a, c);
+     }
 }
