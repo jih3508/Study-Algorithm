@@ -17,15 +17,13 @@ def dfs(node):
 def bfs(node):
     visited = [True for _ in range(n+1)]
     queue = deque([node])
-    array = [node]
-    visited[node] = False
+    array = []
     while queue:
         item = queue.popleft()
-        for num in data[item]:
-            if visited[num]:
-                queue.append(num)
-                array.append(num)
-                visited[num] = False
+        if visited[item]:
+            visited[item] = False
+            array.append(item)
+            queue.extend(data[item])
     return array
     
 
