@@ -19,7 +19,8 @@
 
 ### Silver Ⅱ
 [회의실 배정](https://www.acmicpc.net/problem/1931)   
-[좌표 압축](https://www.acmicpc.net/problem/18870)
+[좌표 압축](https://www.acmicpc.net/problem/18870)  
+[잃어버린 괄호](https://www.acmicpc.net/problem/1541)
 
 ### Silver Ⅰ
 [Z](https://www.acmicpc.net/problem/1074)   
