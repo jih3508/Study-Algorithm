@@ -26,10 +26,12 @@
 ### Silver Ⅰ
 [Z](https://www.acmicpc.net/problem/1074)   
 [숨박꼭질](https://www.acmicpc.net/problem/1697)   
-[최소 힙](https://www.acmicpc.net/problem/1927)   
+[최소 힙](https://www.acmicpc.net/problem/1927)  
+[IOIOI](https://www.acmicpc.net/problem/5525)
 
 ## GOLD
 ### GOLD V
+[AC](https://www.acmicpc.net/problem/5430)
 ### GOLD Ⅳ
 ### GOLD Ⅲ
 ### GOLD Ⅱ
