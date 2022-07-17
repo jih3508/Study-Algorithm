@@ -28,6 +28,7 @@
 [숨박꼭질](https://www.acmicpc.net/problem/1697)   
 [최소 힙](https://www.acmicpc.net/problem/1927)  
 [IOIOI](https://www.acmicpc.net/problem/5525)
+[카잉 달력](https://www.acmicpc.net/problem/6064)
 
 ## GOLD
 ### GOLD V
