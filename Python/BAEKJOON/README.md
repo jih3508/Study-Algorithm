@@ -35,6 +35,7 @@
 ### GOLD V
 [AC](https://www.acmicpc.net/problem/5430)
 ### GOLD Ⅳ
+[테트로미노](https://www.acmicpc.net/problem/14500)
 ### GOLD Ⅲ
 ### GOLD Ⅱ
 [친구 네트워크](https://www.acmicpc.net/problem/4195)  
