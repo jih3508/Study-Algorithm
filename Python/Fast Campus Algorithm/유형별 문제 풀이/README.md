@@ -9,13 +9,3 @@
 ### Chapter07 고급 탐색 알고리즘
 ### Chapter08 동적 프로그래밍
 ### Chapter09 그래프 기본 탐색
-
-1. DFS와 BFS
-   - 문제 난이도: 하
-   - 문제 유형: DFS. BFS
-   - https://www.acmicpc.net/problem/1260
-
-2. 숨박꼭질
-   - 문제 난이도: 하
-   - 문제 유형:  BFS
-   - https://www.acmicpc.net/problem/1697
