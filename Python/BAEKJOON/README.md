@@ -37,6 +37,7 @@
 ### GOLD Ⅳ
 [테트로미노](https://www.acmicpc.net/problem/14500)
 ### GOLD Ⅲ
+[아기상어](https://www.acmicpc.net/problem/16236)
 ### GOLD Ⅱ
 [친구 네트워크](https://www.acmicpc.net/problem/4195)  
 ### GOLDⅠ
