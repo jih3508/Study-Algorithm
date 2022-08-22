@@ -17,7 +17,8 @@
 [1로 만들기](https://www.acmicpc.net/problem/1463)  
 [2×n 타일링](https://www.acmicpc.net/problem/11726)
 [Four Squares](https://www.acmicpc.net/problem/17626)   
-[참외밭](https://github.com/jih3508/Study-Algorithm/tree/master/Python/BAEKJOON)
+[참외밭](https://www.acmicpc.net/problem/2477)    
+[어린왕자](https://www.acmicpc.net/problem/1004)
 
 ### Silver Ⅱ
 [회의실 배정](https://www.acmicpc.net/problem/1931)   
