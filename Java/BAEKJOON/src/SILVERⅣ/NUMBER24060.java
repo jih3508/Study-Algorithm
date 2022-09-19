@@ -1,13 +1,12 @@
-package TestCode;
+package SILVER¥³;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+public class NUMBER24060 {
 
-public class Main {
-	
 	static int[] A, tmp;
 	static int count = 0;
 	static int result = -1;
@@ -75,5 +74,4 @@ public class Main {
 			A[i++] = tmp[t++];
 		}
 	}
-	
 }
