@@ -38,7 +38,9 @@
 ### GOLD V
 [AC](https://www.acmicpc.net/problem/5430)
 ### GOLD Ⅳ
-[테트로미노](https://www.acmicpc.net/problem/14500)
+[테트로미노](https://www.acmicpc.net/problem/14500)  
+[검문](https://www.acmicpc.net/problem/2981)  
+[거짓말](https://www.acmicpc.net/problem/1043)
 ### GOLD Ⅲ
 [아기상어](https://www.acmicpc.net/problem/16236)
 ### GOLD Ⅱ
