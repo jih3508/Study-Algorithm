@@ -32,7 +32,8 @@
 [최소 힙](https://www.acmicpc.net/problem/1927)  
 [IOIOI](https://www.acmicpc.net/problem/5525)
 [카잉 달력](https://www.acmicpc.net/problem/6064)   
-[경로 찾기](https://www.acmicpc.net/problem/11403)
+[경로 찾기](https://www.acmicpc.net/problem/11403)  
+[RGB 거리](https://www.acmicpc.net/problem/1149)
 
 ## GOLD
 ### GOLD V

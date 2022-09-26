@@ -13,6 +13,7 @@
 ### Silver Ⅲ
 ### Silver Ⅱ
 ### Silver Ⅰ
+[RGB 거리](https://www.acmicpc.net/problem/1149)
 
 ### GOLD V
 ### GOLD Ⅳ
