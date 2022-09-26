@@ -1,15 +1,13 @@
-package TestCode;
+package SILVER¥°;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
 import java.util.StringTokenizer;
 
-public class Main {
-	
+public class NUMBER1149 {
+
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
@@ -33,5 +31,4 @@ public class Main {
 		
 		System.out.println(Arrays.stream(house[size-1]).min().getAsInt());
 	}
-	
 }
