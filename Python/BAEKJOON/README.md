@@ -24,7 +24,8 @@
 ### Silver Ⅱ
 [회의실 배정](https://www.acmicpc.net/problem/1931)   
 [좌표 압축](https://www.acmicpc.net/problem/18870)  
-[잃어버린 괄호](https://www.acmicpc.net/problem/1541)
+[잃어버린 괄호](https://www.acmicpc.net/problem/1541)  
+[조합 0의 개수](https://www.acmicpc.net/problem/2004)
 
 ### Silver Ⅰ
 [Z](https://www.acmicpc.net/problem/1074)   

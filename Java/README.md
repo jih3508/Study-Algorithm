@@ -12,6 +12,7 @@
 
 ### Silver Ⅲ
 ### Silver Ⅱ
+[조합 0의 개수](https://www.acmicpc.net/problem/2004)
 ### Silver Ⅰ
 [RGB 거리](https://www.acmicpc.net/problem/1149)
 
