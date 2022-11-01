@@ -25,8 +25,8 @@
 [회의실 배정](https://www.acmicpc.net/problem/1931)   
 [좌표 압축](https://www.acmicpc.net/problem/18870)  
 [잃어버린 괄호](https://www.acmicpc.net/problem/1541)  
-[조합 0의 개수](https://www.acmicpc.net/problem/2004)
-[신나는 함수 실행](https://www.acmicpc.net/problem/9184)
+[조합 0의 개수](https://www.acmicpc.net/problem/2004)  
+[신나는 함수 실행](https://www.acmicpc.net/problem/9184)  
 [연속합](https://www.acmicpc.net/problem/1912)
 
 ### Silver Ⅰ
@@ -36,7 +36,8 @@
 [IOIOI](https://www.acmicpc.net/problem/5525)
 [카잉 달력](https://www.acmicpc.net/problem/6064)   
 [경로 찾기](https://www.acmicpc.net/problem/11403)  
-[RGB 거리](https://www.acmicpc.net/problem/1149)
+[RGB 거리](https://www.acmicpc.net/problem/1149)  
+[쉬운 계단 수](https://www.acmicpc.net/problem/10844)
 
 ## GOLD
 ### GOLD V
