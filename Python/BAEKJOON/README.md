@@ -37,7 +37,8 @@
 [카잉 달력](https://www.acmicpc.net/problem/6064)   
 [경로 찾기](https://www.acmicpc.net/problem/11403)  
 [RGB 거리](https://www.acmicpc.net/problem/1149)  
-[쉬운 계단 수](https://www.acmicpc.net/problem/10844)
+[쉬운 계단 수](https://www.acmicpc.net/problem/10844)  
+[포도주 시식](https://www.acmicpc.net/problem/2156)
 
 ## GOLD
 ### GOLD V
