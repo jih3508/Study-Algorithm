@@ -43,11 +43,11 @@
 ## GOLD
 ### GOLD V
 [AC](https://www.acmicpc.net/problem/5430)
+[전기줄](https://www.acmicpc.net/step/16)
 ### GOLD Ⅳ
 [테트로미노](https://www.acmicpc.net/problem/14500)  
 [검문](https://www.acmicpc.net/problem/2981)  
 [거짓말](https://www.acmicpc.net/problem/1043)  
-[전기줄](https://www.acmicpc.net/step/16)
 ### GOLD Ⅲ
 [아기상어](https://www.acmicpc.net/problem/16236)
 ### GOLD Ⅱ
