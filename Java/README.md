@@ -22,6 +22,7 @@
 [포도주 시식](https://www.acmicpc.net/problem/2156)
 
 ### GOLD V
+[전기줄](https://www.acmicpc.net/step/16) 
 ### GOLD Ⅳ
 [검문](https://www.acmicpc.net/problem/2981)
 ### GOLD Ⅳ
