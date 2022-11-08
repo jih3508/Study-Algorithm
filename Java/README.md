@@ -11,7 +11,9 @@
 [알고리즘 수업 - 병합 정렬 1](https://www.acmicpc.net/problem/24060)
 
 ### Silver Ⅲ
-[N과 M (1)](https://www.acmicpc.net/problem/15649)
+[N과 M (1)](https://www.acmicpc.net/problem/15649)  
+[수열](https://www.acmicpc.net/problem/2559)
+
 ### Silver Ⅱ
 [조합 0의 개수](https://www.acmicpc.net/problem/2004)  
 [신나는 함수 실행](https://www.acmicpc.net/problem/9184)  
