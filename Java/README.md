@@ -21,7 +21,8 @@
 ### Silver Ⅰ
 [RGB 거리](https://www.acmicpc.net/problem/1149)  
 [쉬운 계단 수](https://www.acmicpc.net/problem/10844)  
-[포도주 시식](https://www.acmicpc.net/problem/2156)
+[포도주 시식](https://www.acmicpc.net/problem/2156)  
+[인간-컴퓨터 상호작용](https://www.acmicpc.net/problem/16139)
 
 ### GOLD V
 [전기줄](https://www.acmicpc.net/step/16) 
