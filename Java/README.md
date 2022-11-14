@@ -25,7 +25,8 @@
 [인간-컴퓨터 상호작용](https://www.acmicpc.net/problem/16139)
 
 ### GOLD V
-[전기줄](https://www.acmicpc.net/step/16) 
+[전기줄](https://www.acmicpc.net/step/16)
+[체스판 다시 칠하기 2](https://www.acmicpc.net/problem/25682) 
 ### GOLD Ⅳ
 [검문](https://www.acmicpc.net/problem/2981)
 ### GOLD Ⅳ
