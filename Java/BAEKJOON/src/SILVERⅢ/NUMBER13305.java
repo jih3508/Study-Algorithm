@@ -21,12 +21,14 @@ public class NUMBER13305 {
 			costs[i] = Integer.parseInt(st.nextToken());
 		}
 		
-		long km = (long) roads[0] * costs[0];
+		// 처음에는 무조건 기름은 넣어야 하기때문에 맨앞에 비용과 거리로 설정한다.
+		long total_cost = (long) roads[0] * costs[0];
 		int cost = costs[0];
 		for(int i = 1; i < N - 1; i++) {
+			// 이전 가격이랑 비교해서 싼것 위주로 기름을 넣는다.
 			if (costs[i] < cost) cost = costs[i];
-			km += (long) roads[i] * cost;
+			total_cost += (long) roads[i] * cost;
 		}
-		System.out.println(km);
+		System.out.println(total_cost);
 	}
 }
