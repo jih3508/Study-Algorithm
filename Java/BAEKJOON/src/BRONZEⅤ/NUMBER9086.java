@@ -12,6 +12,7 @@ public class NUMBER9086 {
 		String string;
 		while(N-- > 0) {
 			string = br.readLine();
+			// char + char → int 중간에 문자열을 더해야 한다.
 			System.out.println(string.charAt(0) + "" + string.charAt(string.length() - 1));
 		}
 		
