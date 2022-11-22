@@ -36,6 +36,10 @@
 ### GOLD Ⅲ
 [나머지 합](https://www.acmicpc.net/problem/10986)
 ### GOLD Ⅱ
+### GOLD Ⅰ
+[이항 계수 3](https://www.acmicpc.net/problem/11401)
+
+
 ---
 ## Coding Star
 ### Gold2

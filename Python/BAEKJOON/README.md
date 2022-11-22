@@ -59,4 +59,4 @@
 ### GOLD Ⅱ
 [친구 네트워크](https://www.acmicpc.net/problem/4195)  
 ### GOLDⅠ
-
+[이항 계수 3](https://www.acmicpc.net/problem/11401)
