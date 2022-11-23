@@ -16,6 +16,7 @@
 ### GOLD Ⅳ
 ### GOLD Ⅲ
 ### GOLD Ⅱ
+### GOLD Ⅰ
 ---
 ## Coding Star
 ### Gold2
