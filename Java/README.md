@@ -40,6 +40,8 @@
 ### GOLD Ⅰ
 [이항 계수 3](https://www.acmicpc.net/problem/11401)
 
+### PLATINUM Ⅴ
+[히스토그램에서 가장 큰 직사각형](https://www.acmicpc.net/problem/6549)
 
 ---
 ## Coding Star
