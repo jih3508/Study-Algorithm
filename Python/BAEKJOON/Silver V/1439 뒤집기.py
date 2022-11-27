@@ -1,6 +1,6 @@
 S = input()
-result = S[0]
-for char in S[1:]:
-    if result[-1] != char:
-        result += char
-print(min(result.count('0'), result.count('1')))
+count = [0, 0]
+count[int(S[0])] = 1
+for i in range(1, len(S)):
+    count[int(S[i])] += 1 if S[i] != S[i - 1] else 0
+print(min(count))
