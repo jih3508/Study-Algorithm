@@ -36,7 +36,8 @@
 ### GOLD Ⅲ
 [나머지 합](https://www.acmicpc.net/problem/10986)
 ### GOLD Ⅱ
-[피보나치 수 6](https://www.acmicpc.net/problem/11444)
+[피보나치 수 6](https://www.acmicpc.net/problem/11444)  
+[K번째 수](https://www.acmicpc.net/problem/1300)
 ### GOLD Ⅰ
 [이항 계수 3](https://www.acmicpc.net/problem/11401)
 
