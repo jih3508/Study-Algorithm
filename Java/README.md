@@ -29,7 +29,8 @@
 
 ### GOLD V
 [전기줄](https://www.acmicpc.net/step/16)
-[체스판 다시 칠하기 2](https://www.acmicpc.net/problem/25682) 
+[체스판 다시 칠하기 2](https://www.acmicpc.net/problem/25682)
+[배](https://www.acmicpc.net/problem/1092)
 ### GOLD Ⅳ
 [검문](https://www.acmicpc.net/problem/2981)
 ### GOLD Ⅳ
