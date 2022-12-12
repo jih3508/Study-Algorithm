@@ -30,7 +30,8 @@
 [잃어버린 괄호](https://www.acmicpc.net/problem/1541)  
 [조합 0의 개수](https://www.acmicpc.net/problem/2004)  
 [신나는 함수 실행](https://www.acmicpc.net/problem/9184)  
-[연속합](https://www.acmicpc.net/problem/1912)
+[연속합](https://www.acmicpc.net/problem/1912)  
+[아이들과 선물 상자](https://www.acmicpc.net/problem/23757)
 
 ### Silver Ⅰ
 [Z](https://www.acmicpc.net/problem/1074)   
