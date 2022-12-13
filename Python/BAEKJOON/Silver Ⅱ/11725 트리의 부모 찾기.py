@@ -2,7 +2,7 @@ import sys
 from collections import deque
 input = sys.stdin.readline
 
-def bfs(start):
+def level_order(start):
     queue = deque([start])
     while queue:
         node = queue.popleft()
@@ -20,7 +20,7 @@ for _ in range(N - 1):
     a ,b = map(int, input().split())
     tree[a].append(b)
     tree[b].append(a)
-bfs(1)
+level_order(1)
 
 for node in parent[2:]:
     print(node)

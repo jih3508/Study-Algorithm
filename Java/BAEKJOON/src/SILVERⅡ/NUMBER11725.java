@@ -32,7 +32,7 @@ public class NUMBER11725 {
 			tree.get(b).add(a);
 		}
 		
-		dfs(1);
+		level_order(1);
 		
 		for(int i = 2; i <= N; i++) {
 			System.out.println(parents[i]);
@@ -40,7 +40,7 @@ public class NUMBER11725 {
 		
 	}
 	
-	public static void dfs(int start) {
+	public static void level_order(int start) {
 		Queue<Integer> queue = new LinkedList<Integer>();
 		queue.add(start);
 		int node;
