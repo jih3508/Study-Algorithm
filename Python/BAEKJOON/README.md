@@ -48,8 +48,8 @@
 
 ## GOLD
 ### GOLD V
-[AC](https://www.acmicpc.net/problem/5430)
-[전기줄](https://www.acmicpc.net/step/16)
+[AC](https://www.acmicpc.net/problem/5430)  
+[전기줄](https://www.acmicpc.net/step/16)  
 [체스판 다시 칠하기 2](https://www.acmicpc.net/problem/25682)
 [배](https://www.acmicpc.net/problem/1092) 
 ### GOLD Ⅳ
@@ -63,8 +63,8 @@
 ### GOLD Ⅱ
 [친구 네트워크](https://www.acmicpc.net/problem/4195)  
 [피보나치 수 6](https://www.acmicpc.net/problem/11444)  
-[K번째 수](https://www.acmicpc.net/problem/1300)
-[가장 긴 증가하는 부분 수열 2](https://www.acmicpc.net/problem/12015)
+[K번째 수](https://www.acmicpc.net/problem/1300)  
+[가장 긴 증가하는 부분 수열 2](https://www.acmicpc.net/problem/12015)  
 [가운데를 말해요](https://www.acmicpc.net/problem/1655)
 ### GOLDⅠ
 [이항 계수 3](https://www.acmicpc.net/problem/11401)
