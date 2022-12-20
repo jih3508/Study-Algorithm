@@ -30,9 +30,10 @@
 [인간-컴퓨터 상호작용](https://www.acmicpc.net/problem/16139)
 
 ### GOLD V
-[전기줄](https://www.acmicpc.net/step/16)
-[체스판 다시 칠하기 2](https://www.acmicpc.net/problem/25682)
-[배](https://www.acmicpc.net/problem/1092)
+[전기줄](https://www.acmicpc.net/step/16)  
+[체스판 다시 칠하기 2](https://www.acmicpc.net/problem/25682)  
+[배](https://www.acmicpc.net/problem/1092)  
+[숨바꼭질 3](https://www.acmicpc.net/problem/13549)
 ### GOLD Ⅳ
 [검문](https://www.acmicpc.net/problem/2981)
 ### GOLD Ⅳ
@@ -41,7 +42,7 @@
 ### GOLD Ⅱ
 [피보나치 수 6](https://www.acmicpc.net/problem/11444)  
 [K번째 수](https://www.acmicpc.net/problem/1300)  
-[가장 긴 증가하는 부분 수열 2](https://www.acmicpc.net/problem/12015)
+[가장 긴 증가하는 부분 수열 2](https://www.acmicpc.net/problem/12015)  
 [가운데를 말해요](https://www.acmicpc.net/problem/1655)
 ### GOLD Ⅰ
 [이항 계수 3](https://www.acmicpc.net/problem/11401)
