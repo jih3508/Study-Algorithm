@@ -58,7 +58,8 @@
 [검문](https://www.acmicpc.net/problem/2981)  
 [거짓말](https://www.acmicpc.net/problem/1043)  
 [트리의 지름](https://www.acmicpc.net/problem/1967)  
-[플로이드](https://www.acmicpc.net/problem/11404)
+[플로이드](https://www.acmicpc.net/problem/11404)  
+[최단경로](https://www.acmicpc.net/problem/1753)
 ### GOLD Ⅲ
 [아기상어](https://www.acmicpc.net/problem/16236)  
 [나머지 합](https://www.acmicpc.net/problem/10986)
