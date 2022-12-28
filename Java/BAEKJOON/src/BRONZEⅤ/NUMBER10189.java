@@ -1,4 +1,4 @@
-package BRONZEâ…¤;
+package BRONZE¥´;
 
 public class NUMBER10189 {
 
