@@ -1,10 +1,10 @@
-package BRONZE¥´;
+package BRONZEâ…¤;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 
-public class £Î£Õ£Í£Â£Å£Ò£²£µ£³£·£² {
+public class NUMBER25372 {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		
@@ -14,7 +14,7 @@ public class £Î£Õ£Í£Â£Å£Ò£²£µ£³£·£² {
     	for(int i = 0; i < n; i++) {
     		String text = br.readLine();
     		int len = text.length();
-    		String answer = len >=6 && len <= 9? "ye£ó" : "no";
+    		String answer = len >=6 && len <= 9? "yes" : "no";
     		System.out.println(answer);
     	}
 
