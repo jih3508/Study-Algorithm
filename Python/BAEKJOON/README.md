@@ -69,7 +69,8 @@
 [피보나치 수 6](https://www.acmicpc.net/problem/11444)  
 [K번째 수](https://www.acmicpc.net/problem/1300)  
 [가장 긴 증가하는 부분 수열 2](https://www.acmicpc.net/problem/12015)  
-[가운데를 말해요](https://www.acmicpc.net/problem/1655)
+[가운데를 말해요](https://www.acmicpc.net/problem/1655)  
+[후위 표기식](https://www.acmicpc.net/problem/1918)
 ### GOLDⅠ
 [이항 계수 3](https://www.acmicpc.net/problem/11401)
 
