@@ -22,7 +22,6 @@
 [신나는 함수 실행](https://www.acmicpc.net/problem/9184)  
 [연속합](https://www.acmicpc.net/problem/1912)  
 [아이들과 선물 상자](https://www.acmicpc.net/problem/23757)
-[]
 ### Silver Ⅰ
 [RGB 거리](https://www.acmicpc.net/problem/1149)  
 [쉬운 계단 수](https://www.acmicpc.net/problem/10844)  

@@ -63,7 +63,8 @@
 ### GOLD Ⅲ
 [아기상어](https://www.acmicpc.net/problem/16236)  
 [나머지 합](https://www.acmicpc.net/problem/10986)  
-[벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)
+[벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)  
+[웜홀](https://www.acmicpc.net/problem/1865)
 ### GOLD Ⅱ
 [친구 네트워크](https://www.acmicpc.net/problem/4195)  
 [피보나치 수 6](https://www.acmicpc.net/problem/11444)  
