@@ -1,0 +1,1 @@
+print("S" if sum(list(map(int, input().split()))) < 9 else "F")

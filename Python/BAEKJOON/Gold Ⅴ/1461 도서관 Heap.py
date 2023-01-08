@@ -12,9 +12,9 @@ for book in books:
         heapq.heappush(right, -book)
     max_move = max(max_move, abs(book))
 
-move = 0 # 이동거리
+move = 0 # 총 이동거리
 
-
+# 왼쪽, 오른쪽 거리 구하기
 for i in range(len(left)):
     num = - heapq.heappop(left)
     if i % M == 0:
