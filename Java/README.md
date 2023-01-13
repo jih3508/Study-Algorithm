@@ -16,12 +16,13 @@
 [N과 M (1)](https://www.acmicpc.net/problem/15649)  
 [수열](https://www.acmicpc.net/problem/2559)
 [주유소](https://www.acmicpc.net/problem/13305)  
-[트리의 부모 찾기](https://www.acmicpc.net/problem/11725)
+
 ### Silver Ⅱ
 [조합 0의 개수](https://www.acmicpc.net/problem/2004)  
 [신나는 함수 실행](https://www.acmicpc.net/problem/9184)  
 [연속합](https://www.acmicpc.net/problem/1912)  
 [아이들과 선물 상자](https://www.acmicpc.net/problem/23757)  
+[트리의 부모 찾기](https://www.acmicpc.net/problem/11725)
 [N과 M (9)](https://www.acmicpc.net/problem/15663)
 ### Silver Ⅰ
 [RGB 거리](https://www.acmicpc.net/problem/1149)  
