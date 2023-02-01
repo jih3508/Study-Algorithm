@@ -33,7 +33,8 @@
 [연속합](https://www.acmicpc.net/problem/1912)  
 [아이들과 선물 상자](https://www.acmicpc.net/problem/23757)  
 [트리의 부모 찾기](https://www.acmicpc.net/problem/11725)  
-[N과 M (9)](https://www.acmicpc.net/problem/15663)
+[N과 M (9)](https://www.acmicpc.net/problem/15663)  
+[알고리즘 수업 - 깊이 우선 탐색 1](https://www.acmicpc.net/problem/24479)
 
 ### Silver Ⅰ
 [Z](https://www.acmicpc.net/problem/1074)   
