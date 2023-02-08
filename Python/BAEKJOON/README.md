@@ -47,6 +47,7 @@
 [쉬운 계단 수](https://www.acmicpc.net/problem/10844)  
 [포도주 시식](https://www.acmicpc.net/problem/2156)   
 [인간-컴퓨터 상호작용](https://www.acmicpc.net/problem/16139)
+[최대공약수](https://www.acmicpc.net/problem/1850)
 
 ## GOLD
 ### GOLD V
