@@ -2,6 +2,7 @@ import sys
 from collections import deque
 input = sys.stdin.readline
 
+# 나이트 이동할수 있는 좌표
 dx = [-2, -2, -1, -1, 1, 1, 2, 2] 
 dy = [-1, 1, -2, 2, -2, 2, -1, 1]
 

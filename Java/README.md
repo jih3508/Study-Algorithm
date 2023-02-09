@@ -31,6 +31,7 @@
 [포도주 시식](https://www.acmicpc.net/problem/2156)  
 [인간-컴퓨터 상호작용](https://www.acmicpc.net/problem/16139)
 [최대공약수](https://www.acmicpc.net/problem/1850)
+[카드 구매하기](https://www.acmicpc.net/problem/11052)
 
 ### GOLD V
 [전기줄](https://www.acmicpc.net/step/16)  

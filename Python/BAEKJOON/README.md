@@ -18,8 +18,7 @@
 ### Silver Ⅲ
 [1로 만들기](https://www.acmicpc.net/problem/1463)  
 [2×n 타일링](https://www.acmicpc.net/problem/11726)  
-[Four Squares](https://www.acmicpc.net/problem/17626)   
-[참외밭](https://www.acmicpc.net/problem/2477)    
+[Four Squares](https://www.acmicpc.net/problem/17626)   참외밭](https://www.acmicpc.net/problem/2477)    
 [어린왕자](https://www.acmicpc.net/problem/1004)  
 [수열](https://www.acmicpc.net/problem/2559)
 [주유소](https://www.acmicpc.net/problem/13305)
@@ -47,7 +46,8 @@
 [쉬운 계단 수](https://www.acmicpc.net/problem/10844)  
 [포도주 시식](https://www.acmicpc.net/problem/2156)   
 [인간-컴퓨터 상호작용](https://www.acmicpc.net/problem/16139)
-[최대공약수](https://www.acmicpc.net/problem/1850)
+[최대공약수](https://www.acmicpc.net/problem/1850)  
+[카드 구매하기](https://www.acmicpc.net/problem/11052)
 
 ## GOLD
 ### GOLD V
