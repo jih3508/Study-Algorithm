@@ -59,6 +59,7 @@
 [숨바꼭질 3](https://www.acmicpc.net/problem/13549)
 [센서](https://www.acmicpc.net/problem/2212)  
 [도서관](https://www.acmicpc.net/problem/1461)
+[암호 만들기](https://www.acmicpc.net/problem/1759)
 ### GOLD Ⅳ
 [테트로미노](https://www.acmicpc.net/problem/14500)  
 [검문](https://www.acmicpc.net/problem/2981)  
