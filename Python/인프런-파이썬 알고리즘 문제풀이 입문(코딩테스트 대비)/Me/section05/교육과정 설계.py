@@ -4,8 +4,17 @@ sys.stdin=open("./Me/section05/input.txt", "r")
 
 require = input()
 for t in range(int(input())):
-    lesson = input()
-    
+    lessons = input()
+    need = deque(list(require))
+    flag = True
+    for lesson in lessons:
+        if lesson in need:
+            if lesson != need.popleft():
+                flag = False
+                break
+    flag = flag and len(need) == 0
+    print("#%d %s"%((t+1,'YES' if flag else 'NO' )))
+
 
 
 '''
