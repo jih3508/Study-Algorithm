@@ -13,6 +13,7 @@ for _ in range(int(input())):
 
 center = N //2
 result = 0
+#모래시계
 for i in range(N):
     #print((i , N - i) if i <= center else (N - i - 1, i + 1))
     #print((board[i][i: N - i]) if i <= center else board[i][N - i - 1 : i + 1])

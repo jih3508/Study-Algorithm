@@ -11,7 +11,7 @@ for s in word1:
 
 for s in word2:
     counts[ord(s) - ord('a')] -= 1
-    
+
 flag = True
 for count in counts:
     if count != 0:
