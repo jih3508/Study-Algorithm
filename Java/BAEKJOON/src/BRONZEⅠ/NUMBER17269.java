@@ -41,7 +41,7 @@ public class NUMBER17269 {
 			AB[2*i + 1] = B[i]; // 짝수 위치 작업
 		}
 		
-		restAlphabet(N > M ? A : B , minlenth, N > M ? N : M);
+		restAlphabet(N > M ? A : B , N > M ? N : M);
 		//Arrays.stream(AB).forEach(x -> System.out.print(x + " "));
 		for(int i = 0; i < worldLenth - 2; i++) {
 			for(int j = 0; j < worldLenth - i - 1; j++) {
@@ -49,17 +49,17 @@ public class NUMBER17269 {
 			}
 		}
 		//System.out.println();
-		System.out.println((AB[0] == 0 ? AB[1] : AB[0] * 10 + AB[1]) + "%");
+		System.out.println(AB[0] * 10 + AB[1] + "%");
 		
 	}
 	
 	/**
 	 * 나머지 알파벳 집어 넣는것
 	 */
-	public static void restAlphabet(int[] arr, int start, int end) {
+	public static void restAlphabet(int[] arr, int end) {
 		//Arrays.stream(arr).forEach(x -> System.out.print(x + " "));
-		for(int i = start; i < end; i++) {
-			AB[minlenth * 2 + i - start] = arr[i];
+		for(int i = minlenth; i < end; i++) {
+			AB[minlenth * 2 + i - minlenth] = arr[i];
 		}
 		//System.out.println();
 	}
