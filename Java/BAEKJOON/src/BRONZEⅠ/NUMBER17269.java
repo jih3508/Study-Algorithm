@@ -59,7 +59,7 @@ public class NUMBER17269 {
 	public static void restAlphabet(int[] arr, int end) {
 		//Arrays.stream(arr).forEach(x -> System.out.print(x + " "));
 		for(int i = minlenth; i < end; i++) {
-			AB[minlenth * 2 + i - minlenth] = arr[i];
+			AB[minlenth + i] = arr[i];
 		}
 		//System.out.println();
 	}
