@@ -11,7 +11,7 @@ def isSameCandy(candies):
             return False
     return True
 
-# 사탕 순화
+# 사탕 순회
 def roundCandy(candies):
     length = len(candies)
     newCandies = [0 for _ in range(length)]
