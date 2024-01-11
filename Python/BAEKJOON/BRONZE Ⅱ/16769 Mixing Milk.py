@@ -18,7 +18,7 @@ while count < 100:
         milks[next] = cups[next]
     else:
         milks[now] = 0
-        
+
     count += 1
 
 print('\n'.join(map(str, milks)))
