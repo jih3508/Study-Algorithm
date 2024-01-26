@@ -12,74 +12,88 @@ import java.util.StringTokenizer;
 
 public class NUMBER2468 {
 	
-	static int[][] paper;
-	static int N, M;
+	static int N;
+	static int[][] areas, board;
 	
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine());
-		M = Integer.parseInt(st.nextToken());
-		N = Integer.parseInt(st.nextToken());
-		int K = Integer.parseInt(st.nextToken());
-		paper = new int[N][M];
-		int x1, y1, x2, y2;
-		for(int k = 0; k < K; k++) {
+		
+		N = Integer.parseInt(br.readLine());
+		areas = new int[N][N];
+		
+		StringTokenizer st;
+		for(int i = 0; i < N; i++) {
 			st = new StringTokenizer(br.readLine());
-			x1 = Integer.parseInt(st.nextToken());
-			y1 = Integer.parseInt(st.nextToken());
-			x2 = Integer.parseInt(st.nextToken());
-			y2 = Integer.parseInt(st.nextToken());
-			for(int x = x1; x < x2; x++) {
-				for(int y = y1; y < y2; y++) {
-					paper[x][y] = 1;
-				}
+			for(int j = 0; j < N; j++) {
+				areas[i][j] = Integer.parseInt(st.nextToken());
 			}
 		}
 		
-		List<Integer> areas = new ArrayList<Integer>();
-		for(int x = 0; x < N; x++) {
-			for(int y = 0; y < M; y++) {
-				if(paper[x][y] == 0) {
-					areas.add(bfs(x, y));
-				}
+		int min_high = 100;
+		int max_high = 0;
+		
+		for(int i = 0; i < N; i++) {
+			for(int j = 0; j < N; j++) {
+				min_high = Math.min(min_high, areas[i][j]);
+				max_high = Math.max(max_high, areas[i][j]);
 			}
+		}
+		int count = 0;
+		for(int high = min_high - 1; high < max_high; high++) {
+			count = Math.max(count, count_area(high));
+		}
 			
-		}
-		Collections.sort(areas);
-		System.out.println(areas.size());
-		for(int i = 0; i < areas.size(); i++) {
-			System.out.print(areas.get(i) + " ");
-		}
+		System.out.println(count);
 		
 	}
 	
-	public static int bfs(int x, int y) {
-		// 상화자우 방향설정
-		int[] dx = new int[] {0, 0, -1, 1};
-		int[] dy = new int[] {-1, 1, 0, 0};
+	public static int count_area(int high) {
+		int cnt = 0;
 		
-		Queue<int[]> queue = new LinkedList<int[]>();
-		int count = 1;
-		paper[x][y] = 1;
-			
-		queue.add(new int[] {x, y});
-		int fx, fy, cx, cy;
-		while (!queue.isEmpty()) {
-			int[] location = queue.poll();
-			cx = location[0];
-			cy = location[1];
-			for(int i = 0; i < 4; i++) {
-				fx = cx + dx[i];
-				fy = cy + dy[i];
-				if(0 <= fx && fx < N && 0<= fy && fy < M && paper[fx][fy] == 0) {
-					paper[fx][fy] = 1;
-					queue.add(new int[] {fx, fy});
-					count++;
+		board = new int[N][N];
+		
+		for(int i = 0; i < N; i++) {
+			for(int j = 0; j < N; j++) {
+				board[i][j] = areas[i][j] > high? 1 : 0;
+			}
+		}
+		
+		
+		for(int i = 0; i < N; i++) {
+			for(int j = 0; j < N; j++) {
+				if( board[i][j] == 1) {
+					bfs(i, j);
+					cnt++;
 				}
 			}
 		}
 		
-		return count;
+		return cnt;
 	}
-
+	
+	public static void bfs(int x, int y) {
+		int[] dx = {-1, 1, 0, 0};
+		int[] dy = {0, 0, -1, 1};
+		
+		Queue<int []> queue = new LinkedList<>();
+		queue.add(new int[] {x, y});
+		board[x][y] = 0;
+		int nx, ny, fx, fy;
+		while (!queue.isEmpty()) {
+			int[] location = queue.poll();
+			nx = location[0];
+			ny = location[1];
+			
+			for(int k = 0; k < 4; k++) {
+				fx = nx + dx[k];
+				fy = ny + dy[k];
+				if((0 <= fx && fx < N) && (0<= fy && fy < N) && (board[fx][fy] == 1)) {
+					board[fx][fy] = 0;
+					queue.add(new int[] {fx, fy});
+				}
+			}
+		}
+		
+		
+	}
 }
