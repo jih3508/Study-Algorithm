@@ -22,11 +22,11 @@ public class NUMBER10819 {
 		for(int i = 0; i < N; i++) {
 			array[i] = Integer.parseInt(st.nextToken());
 		}
-		combination(0);
+		permutations(0);
 		System.out.println(max_Num);
 	}
 	
-	public static void combination(int k) {
+	public static void permutations(int k) {
 		
 		int tmp;
 		
@@ -42,7 +42,7 @@ public class NUMBER10819 {
 				tmp = array[i];
 				array[i] = array[k];
 				array[k] = tmp;
-				combination(k + 1);
+				permutations(k + 1);
 				array[k] = array[i];
 				array[i] = tmp;
 
