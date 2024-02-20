@@ -1,4 +1,4 @@
-package GOLD¥³;
+package GOLDâ…£;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -30,12 +30,12 @@ static int[][] matrix = new int[9][9];
 	 */
 	public static void sudoku(int row, int col) {
 		
-		// ÇÑ ÇàÀÌ ²ö³ª¸é ´ÙÀ½ÇàÀ¸·Î ÀÌµ¿
+		// ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìµï¿½
 		if(col == 9) {
 			sudoku(row + 1, 0);
 			return;
 		}
-		// 9°³ ÇàÀ» Å½»öÀ» ³¡³ª¸é °á°ú¸¦ Ãâ·ÂÇÏ°í Á¾·áÇÑ´Ù.
+		// 9ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Å½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½.
 		if(row == 9) {
 			StringBuilder sb = new StringBuilder();
 			for(int i = 0; i < 9; i++) {
@@ -65,12 +65,12 @@ static int[][] matrix = new int[9][9];
 	}
 	
 
-	// ½ºµµÄíÀÇ Á¶°ÇÀÌ ¸¸Á·ÇÏ´ÂÁö È®ÀÎ
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ï¿½ï¿½ È®ï¿½ï¿½
 	public static boolean is_value(int[][] array, int row, int col, int num) {
 		return is_closs(array, row, col, num) && is_box(array, row - row % 3 ,col - col %3, num);
 	}
 	
-	// °¡·Î, ¼¼·ÎÁß¿¡ Áßº¹µÇ´Â ¼ýÀÚ È®ÀÎ
+	// ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ß¿ï¿½ ï¿½ßºï¿½ï¿½Ç´ï¿½ ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½
 	public static boolean is_closs(int[][] array, int row, int col, int num) {
 		for(int i = 0; i < 9; i++) {
 			if (array[row][i] == num || array[i][col] == num) return false;
@@ -78,7 +78,7 @@ static int[][] matrix = new int[9][9];
 		return true;
 	}
 	
-	// º»ÀÎÀÌ ¼ÓÇÑ ¿µ¿ªÀÌ Áßº¹ µÇ´ÂÁö È®ÀÎ
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ßºï¿½ ï¿½Ç´ï¿½ï¿½ï¿½ È®ï¿½ï¿½
 	public static boolean is_box(int[][] array, int row, int col, int num) {
 		for(int j = 0; j < 3; j++) {
 			for (int i = 0; i < 3; i ++) {
