@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public class NUMBER2239 {
 
-	static final int size = 9;
+	static final int size = 9; // 스도쿠 가로, 세로 크기
 	static int x, y;
 	
 
@@ -31,6 +31,7 @@ public class NUMBER2239 {
 	
 	public static void sudoku(int[][] arrays) {
 		
+		// 빈값이 없으면 스도쿠 출력하고 종료한다.
 		if(isBlank(arrays)) {		
 			printSudoku(arrays);
 			System.exit(0);
@@ -49,9 +50,13 @@ public class NUMBER2239 {
 	
 	public static boolean checked(int row, int col, int num, int[][] arrays) {
 		
-		return checkedCross(row, col, num, arrays) && checkedBox(row - row % 3, col - col % 3, num, arrays);
+		return checkedCross(row, col, num, arrays) && 
+				checkedBox(row - row % 3, col - col % 3, num, arrays); // row % 3, col % 3 박스안에 
 	}
 	
+	/*
+	 * 가로세로 중복 값 찾기
+	 */
 	public static boolean checkedCross(int row, int col, int num, int[][] arrays){
 		
 		for(int k = 0; k < size; k++) {
@@ -62,6 +67,9 @@ public class NUMBER2239 {
 		return true;
 	}
 	
+	/*
+	 * 박스안에 중복 값 찾기
+	 */
 	public static boolean checkedBox(int row, int col, int num, int[][] arrays) {
 		for(int i = 0; i < 3; i++) {
 			for(int j = 0; j < 3; j++) {
@@ -73,6 +81,9 @@ public class NUMBER2239 {
 		return true;
 	}
 	
+	/*
+	 * 빈 값 위치 찾기
+	 */
 	public static boolean isBlank(int[][] arrays) {
 		
 		for(int i = 0; i < size; i++) {
@@ -88,6 +99,9 @@ public class NUMBER2239 {
 		return true;
 	}
 	
+	/*
+	 * 스도쿠 출력
+	 */
 	public static void printSudoku(int[][] arrays) {
 		StringBuilder sb = new StringBuilder();
 		
