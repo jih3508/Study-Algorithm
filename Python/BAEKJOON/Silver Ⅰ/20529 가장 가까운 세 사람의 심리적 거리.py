@@ -1,3 +1,4 @@
+# 심리적 거리
 def distance(mbti):
     dist = 0
     for i in range(4):
@@ -16,7 +17,7 @@ for _ in range(int(input())):
     if N > 32:
         print(0)
     else:
-        result = 12
+        result = 12 # 심리적 거리 최대 값
 
         for i in range(N):
             for j in range(i + 1, N):

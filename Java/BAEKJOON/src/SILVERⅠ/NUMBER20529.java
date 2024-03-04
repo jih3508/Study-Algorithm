@@ -39,6 +39,9 @@ public class NUMBER20529 {
 		
 	}
 	
+	/*
+	 * 심리적 거리
+	 */
 	public static int distance(String[] mbti) {
 		int dist = 0;
 		for(int i = 0; i < 4; i++) {
