@@ -7,7 +7,7 @@ class LRUCache:
 
     def get(self, key: int) -> int:
         if key not in self.cache: return - 1
-        # 사용후 맨
+        # 사용후 맨뒤로 보낸다.
         self.cache.move_to_end(key)
         return self.cache[key]
 

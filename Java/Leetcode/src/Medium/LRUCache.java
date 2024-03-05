@@ -1,5 +1,6 @@
 package Medium;
 
+import java.io.IOException;
 import java.util.LinkedHashMap;
 
 class LRUCache {
@@ -13,6 +14,12 @@ class LRUCache {
     }
     
     public int get(int key) {
+    	if(cache.containsKey(key)) {
+    		int value = cache.get(key);
+    		cache.remove(key);
+    		cache.put(key, value);
+    		return value;
+    	}
         return cache.getOrDefault(key, -1);
     }
     
@@ -27,6 +34,22 @@ class LRUCache {
     		// 최근 사용한 키 또는 저장한키를 추출함
     		int removeKey = cache.keySet().iterator().next();
     		cache.remove(removeKey);
+    		//System.out.println(removeKey);
     	}
+    	System.out.println(cache.toString());
+    	
+    }
+    
+    public static void main(String[] args) throws IOException {
+    	LRUCache lRUCache = new LRUCache(2);
+    	lRUCache.put(1, 1); // cache is {1=1}
+    	lRUCache.put(2, 2); // cache is {1=1, 2=2}
+    	System.out.println(lRUCache.get(1));   // return 1
+    	lRUCache.put(3, 3); // LRU key was 2, evicts key 2, cache is {1=1, 3=3}
+    	System.out.println(lRUCache.get(2));    // returns -1 (not found)
+    	lRUCache.put(4, 4); // LRU key was 1, evicts key 1, cache is {4=4, 3=3}
+    	System.out.println(lRUCache.get(1));    // return -1 (not found)
+    	System.out.println(lRUCache.get(3));    // return 3
+    	System.out.println(lRUCache.get(4)); 
     }
 }
