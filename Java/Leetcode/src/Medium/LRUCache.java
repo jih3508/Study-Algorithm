@@ -14,13 +14,14 @@ class LRUCache {
     }
     
     public int get(int key) {
+    	// 출력하고 맨 뒤로 보낸다.
     	if(cache.containsKey(key)) {
     		int value = cache.get(key);
     		cache.remove(key);
     		cache.put(key, value);
     		return value;
     	}
-        return cache.getOrDefault(key, -1);
+        return -1;
     }
     
     public void put(int key, int value) {
@@ -31,7 +32,7 @@ class LRUCache {
     	cache.put(key, value);
     	// 용량 초과일경우 최근것을 삭제한다.
     	if(cache.size() > size) {
-    		// 최근 사용한 키 또는 저장한키를 추출함
+    		// 맨앞에 key를 출력한다.
     		int removeKey = cache.keySet().iterator().next();
     		cache.remove(removeKey);
     		//System.out.println(removeKey);

@@ -2,3 +2,4 @@
 
 ## Medium
 - [LRUCache](https://leetcode.com/problems/lru-cache)
+- [Integer Break](https://leetcode.com/problems/integer-break)
