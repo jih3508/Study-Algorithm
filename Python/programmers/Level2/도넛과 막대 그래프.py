@@ -23,10 +23,10 @@ def solution(edges):
         elif cnts[0] == 0 and cnts[1] > 0:
             answer[2] += 1
         # 들어오는 간선 2개 이상 나가는 간선 2개 이상일때 8자 모양 그래프 개수 추가
-        elif cnts[0] >= 2 and cnts[2] >= 2:
+        elif cnts[0] >= 2 and cnts[1] >= 2:
             answer[3] += 1
     # 점정에서 나가는 간선에서 막대 그래프 8자 모양 제외한것이 8자 모양 그래프임
-    answer[1] = nodeCnt[answer[0]] - answer[2] - answer[3]
+    answer[1] = nodeCnt[answer[0]][0] - answer[2] - answer[3]
     return answer
 
 print(solution([[2, 3], [4, 3], [1, 1], [2, 1]]))
