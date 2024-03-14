@@ -24,6 +24,7 @@ class Solution {
 	
 	int[][] heights;
 	int x,y ;
+	// 방향
 	int[] dx = {1, -1, 0, 0};
 	int[] dy = {0, 0, 1, -1};
 	
@@ -36,10 +37,12 @@ class Solution {
         int right = 1000001;
         int mid;
         
+        // 이분 탐색
         while(left < right) {
         	mid = (left + right) / 2;
         	
-        	if (dfs(mid)) {
+        	// mid 안에 끝까지 갈수 있을 경우 큰 값을 줄인다.
+        	if (bfs(mid)) {
         		right = mid;
         	}else {
         		left = mid + 1;
@@ -49,7 +52,7 @@ class Solution {
     	return right;
     }
     
-    public boolean dfs(int gap) {
+    public boolean bfs(int gap) {
     	Queue<int []> queue = new LinkedList<>();
     	queue.add(new int[] {0, 0});
     	

@@ -2,9 +2,12 @@ from collections import deque
 
 class Solution:
     def minimumEffortPath(self, heights) -> int:
-        def dfs(gap):
+        def bfs(gap):
+            # 방향
             dx = [1, -1, 0, 0]
             dy = [0, 0, 1, -1]
+
+            # 방문 여부를 담기 위한 집합 포함 여부 할때 set으로 처리하는게 속도가 더 빠름
             paths = set([(0, 0)])
             queue = deque([(0, 0)])
 
@@ -26,13 +29,15 @@ class Solution:
         self.x = len(self.heights)
         self.y = len(self.heights[0])
 
+
         right = max(max(heights, key=lambda height: max(height)))
         left = 0
 
         while left < right:
             mid = (left + right) // 2
 
-            if dfs(mid):
+            # mid 안에 끝까지 갈수 있을 경우 큰 값을 줄인다.
+            if bfs(mid):
                 right = mid
             else:
                 left = mid + 1
