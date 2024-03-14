@@ -29,6 +29,7 @@ public class Palindrome_Partitioning {
 		for(int i = n + 1; i <= length; i++) {
 			string = this.s.substring(n, i);
 			sb = new StringBuilder(string);
+			// 문자열 뒤집어서 같으면 추가 하고 그 다음 진행 한다.
 			if(string.equals(sb.reverse().toString())) {
 				p.add(string);
 				backtracking(i,(ArrayList<String>) p.clone());

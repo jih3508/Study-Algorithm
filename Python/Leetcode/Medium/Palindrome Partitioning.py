@@ -13,6 +13,7 @@ class Solution:
 
         for i in range(n + 1, self.length + 1):
             string = self.s[n : i]
+            # 문자열 같으면 리스트에 저장 하고 그 다음을 진행한다.
             if string == string[::-1]:
                 self.backtracking(i, p + [string])
 
