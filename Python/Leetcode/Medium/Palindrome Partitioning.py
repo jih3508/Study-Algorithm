@@ -7,7 +7,7 @@ class Solution:
         self.backtracking(0)
         return self.result
 
-    def backtracking(self, n , p = []):
+    def backtracking(self, n, p = []):
         if(n == self.length):
             self.result.append(p)
 
