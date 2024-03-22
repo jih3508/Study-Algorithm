@@ -1,7 +1,5 @@
 package Medium;
 
-import java.util.Arrays;
-
 public class PartitioningIntoMinimumNumberOfDeciBinaryNumbers {
 
     public static void main(String[] args){
