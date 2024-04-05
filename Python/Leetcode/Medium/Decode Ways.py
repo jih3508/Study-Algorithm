@@ -9,9 +9,11 @@ class Solution:
         for i in range(2, length + 1):
             nowNum = int(s[i-2: i])
 
+            # 0이 아닐 경우
             if(s[i-1] != '0'):
                 dp[i] += dp[i-1]
 
+            # 10 ~ 26일 경우 추가
             if(10 <= nowNum <= 26):
                 dp[i] += dp[i-2]
 
