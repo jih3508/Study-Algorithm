@@ -6,3 +6,4 @@
 - [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/description/)
 - [ Course Schedule](https://leetcode.com/problems/course-schedule/description/)
 - [Decode Ways](https://leetcode.com/problems/decode-ways/description/)
+- [Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/description/)
