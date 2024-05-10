@@ -9,20 +9,13 @@ public class NUMBER12941 {
     int answer = 0;
     int lenth = A.length; // 배열 크기
 
-    PriorityQueue<Integer> heapA = new PriorityQueue<>();
-    PriorityQueue<Integer> heapB = new PriorityQueue<>();
+    // A, B 배열 정렬
+    Arrays.sort(A);
+    Arrays.sort(B);
 
-
-    // A, B 배열 heap에 저장
+    // 최소값을 구해야 하기 때문에 한쪽은 큰곳 다른 한쪽은 작은쪽 부터 시작하기 때문에 B는 역순으로 시작
     for(int i = 0; i < lenth; i++){
-      heapA.add(A[i]);
-      heapB.add(-1 * B[i]); // B는 큰 순으로 저장해야 하기 때문에 -1로 해서 MaxHeap 처리 한다.
-    }
-
-    for(int i = 0; i < lenth; i++){
-      // A는 작은순 B는 큰순으로 뽑아서 곱해서 더한다.
-      // B는 MaxHeap로 -1 곱해서 저장해서 꺼낼때 -1을 곱해야 한다.
-      answer += heapA.poll() * -1 * heapB.poll();
+      answer += A[i] * B[lenth-1-i];
     }
 
     return answer;
