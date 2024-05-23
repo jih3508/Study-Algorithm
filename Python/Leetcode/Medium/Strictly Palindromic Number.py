@@ -8,6 +8,7 @@ class Solution:
                 num, mod = divmod(num, base)
                 parse += str(mod)
 
+            # 뒤집어야 집법 변환 작업이 끝난다.
             return parse[::-1]
 
         for i in range(2, n - 1):
