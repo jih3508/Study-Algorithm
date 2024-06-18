@@ -1,21 +1,29 @@
 class Solution:
     def search(self, nums: list[int], target: int) -> int:
-        start = 0
-        end = len(nums) - 1
-        while start <= end:
-            mid = (start + end) // 2
+        left = 0 # 왼쪽
+        right = len(nums) - 1 # 오른쪽
+
+        # 이진탐색 시작
+        while left <= right:
+            mid = (left + right) // 2 # 중간값 계산
+            # 찾았을대 위치 반환
             if target == nums[mid]:
                 return mid
-            elif nums[start] <= nums[mid]:
-                if nums[start] <= target < nums[mid]:
-                    end = mid - 1
+
+            # 왼쪽 - 중간이 정렬 되어 있을때
+            elif nums[left] <= nums[mid]:
+                # 왼쪽 - 중간안에 target이 있을 경우
+                if nums[left] <= target < nums[mid]:
+                    right = mid - 1
                 else:
-                    start = mid + 1
+                    left = mid + 1
+            # 중간 - 오른쪽이 정렬 되어 있을때
             else:
-                if nums[mid] < target <= nums[end]:
-                    start = mid + 1
+                # 중간 - 오른쪽 사이에 값이 존재 할때
+                if nums[mid] < target <= nums[right]:
+                    left = mid + 1
                 else:
-                    end = mid - 1
+                    right = mid - 1
         return -1
 
 

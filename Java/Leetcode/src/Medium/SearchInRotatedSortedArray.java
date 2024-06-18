@@ -1,26 +1,32 @@
 package Medium;
 
 public class SearchInRotatedSortedArray {
-    
-    public int search(int[] nums, int target) {
-        int start = 0;
-        int end = nums.length - 1;
-        int mid;
 
-        while(start <= end){
-            mid = (start + end) / 2;
+    public int search(int[] nums, int target) {
+        int left = 0; // 왼쪽
+        int right = nums.length - 1; // 오른쪽
+        int mid; // 중간
+
+        // 이진탐색 시작
+        while(left <= right){
+            mid = (left + right) / 2; // 중간값 계산
+            // 찾았을때 위치 반환
             if(nums[mid] == target) return mid;
-            else if(nums[start] <= nums[mid]){
-                if(nums[start] <= target && target < nums[mid]){
-                    end = mid - 1;
+            // 왼쪽 - 중간 정렬 되어있을때
+            else if(nums[left] <= nums[mid]){
+                // 왼쪽 - 중간안에 target이 있을 경우
+                if(nums[left] <= target && target < nums[mid]){
+                    right = mid - 1;
                 }else{
-                    start = mid + 1;
+                    left = mid + 1;
                 }
+            // 중간 - 끝 정렬 되어있을때
             }else{
-                if(nums[mid] < target && target <= nums[end]){
-                    start = mid + 1;
+                // 중간 - 오른쪽 사이에 target이 있을경우
+                if(nums[mid] < target && target <= nums[right]){
+                    left = mid + 1;
                 }else{
-                    end = mid - 1;
+                    right = mid - 1;
                 }
             }
         }
