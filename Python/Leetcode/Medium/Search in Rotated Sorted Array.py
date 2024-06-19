@@ -6,7 +6,7 @@ class Solution:
         # 이진탐색 시작
         while left <= right:
             mid = (left + right) // 2 # 중간값 계산
-            # 찾았을대 위치 반환
+            # 찾았을때 위치 반환
             if target == nums[mid]:
                 return mid
 
