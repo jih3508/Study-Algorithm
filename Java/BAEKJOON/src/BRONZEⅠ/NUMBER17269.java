@@ -1,4 +1,4 @@
-package BRONZE¥°;
+package BRONZEâ… ;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -18,10 +18,10 @@ public class NUMBER17269 {
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		int N = Integer.parseInt(st.nextToken());
 		int M = Integer.parseInt(st.nextToken());
-		minlenth = Math.min(N, M); // N, M ÃÖ¼Ò ±æÀÌ
+		minlenth = Math.min(N, M); // N, M ï¿½Ö¼ï¿½ ï¿½ï¿½ï¿½ï¿½
 		int worldLenth = N + M;
-		
-		// A, B  ¹®ÀÚ¿­ ¼¼ÆÃ (¹®ÀÚ¿­ ¡æ ¼ıÀÚ·Î º¯È¯ ÀÛ¾÷)
+
+		// A, B  ë¬¸ìì—´ ì„¸íŒ… (ë¬¸ìì—´ â†’ ìˆ«ìë¡œ ë³€í™˜ ì‘ì—…)
 		st = new StringTokenizer(br.readLine());
 		int[] A = new int[N];
 		int[] B = new int[M];
@@ -33,12 +33,12 @@ public class NUMBER17269 {
 		for(int i = 0; i < M; i++) {
 			B[i] = alp[str.charAt(i) - 'A'];
 		}
-		
-		// A, B ¹®ÀÚ¿­ ÇÕÄ¡±â
+
+		// A, B ë¬¸ìì—´ í•©ì¹˜ê¸°
 		AB = new int[worldLenth];
 		for(int i = 0; i < minlenth; i++) {
-			AB[2*i] = A[i]; //È¦¼ö À§Ä¡
-			AB[2*i + 1] = B[i]; // Â¦¼ö À§Ä¡ ÀÛ¾÷
+			AB[2*i] = A[i]; //í™€ìˆ˜ ìœ„ì¹˜
+			AB[2*i + 1] = B[i]; // ì§ìˆ˜ ìœ„ì¹˜ ì‘ì—…
 		}
 		
 		restAlphabet(N > M ? A : B , N > M ? N : M);
@@ -52,9 +52,9 @@ public class NUMBER17269 {
 		System.out.println(AB[0] * 10 + AB[1] + "%");
 		
 	}
-	
+
 	/**
-	 * ³ª¸ÓÁö ¾ËÆÄºª Áı¾î ³Ö´Â°Í
+	 * ë‚˜ë¨¸ì§€ ì•ŒíŒŒë²³ ì§‘ì–´ ë„£ëŠ”ê²ƒ
 	 */
 	public static void restAlphabet(int[] arr, int end) {
 		//Arrays.stream(arr).forEach(x -> System.out.print(x + " "));
