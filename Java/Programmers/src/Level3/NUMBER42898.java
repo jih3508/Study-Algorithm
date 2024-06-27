@@ -39,6 +39,5 @@ public class NUMBER42898 {
 //        nums = new int[] {1};
 //        System.out.println(solution.search(nums, 0));
 
-
     }
 }
