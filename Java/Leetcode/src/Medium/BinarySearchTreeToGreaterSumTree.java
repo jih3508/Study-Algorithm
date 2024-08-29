@@ -25,7 +25,6 @@ public class BinarySearchTreeToGreaterSumTree {
             treeOrder(node.left);
         }
 
-
     }
 
     public class TreeNode {
