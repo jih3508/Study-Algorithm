@@ -15,6 +15,7 @@
 [N과 M (1)](https://www.acmicpc.net/problem/15649)  
 [수열](https://www.acmicpc.net/problem/2559)
 [주유소](https://www.acmicpc.net/problem/13305)  
+[게임](https://www.acmicpc.net/problem/1072)  
 
 ## Silver Ⅱ
 [조합 0의 개수](https://www.acmicpc.net/problem/2004)  

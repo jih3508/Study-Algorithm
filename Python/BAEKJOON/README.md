@@ -18,16 +18,18 @@
 ### Silver Ⅲ
 [1로 만들기](https://www.acmicpc.net/problem/1463)  
 [2×n 타일링](https://www.acmicpc.net/problem/11726)  
-[Four Squares](https://www.acmicpc.net/problem/17626)   참외밭](https://www.acmicpc.net/problem/2477)    
+[Four Squares](https://www.acmicpc.net/problem/17626)   
+[참외밭](https://www.acmicpc.net/problem/2477)    
 [어린왕자](https://www.acmicpc.net/problem/1004)  
-[수열](https://www.acmicpc.net/problem/2559)
-[주유소](https://www.acmicpc.net/problem/13305)
+[수열](https://www.acmicpc.net/problem/2559)  
+[주유소](https://www.acmicpc.net/problem/13305)  
+[게임](https://www.acmicpc.net/problem/1072)
 
 ### Silver Ⅱ
 [회의실 배정](https://www.acmicpc.net/problem/1931)   
 [좌표 압축](https://www.acmicpc.net/problem/18870)  
 [잃어버린 괄호](https://www.acmicpc.net/problem/1541)  
-[조합 0의 개수](https://www.acmicpc.net/problem/2004)  
+[조합 0의 개수](https://www.acmicpc.net/problem/2004)    
 [신나는 함수 실행](https://www.acmicpc.net/problem/9184)  
 [연속합](https://www.acmicpc.net/problem/1912)  
 [아이들과 선물 상자](https://www.acmicpc.net/problem/23757)  
