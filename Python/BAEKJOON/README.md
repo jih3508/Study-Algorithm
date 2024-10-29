@@ -23,7 +23,8 @@
 [어린왕자](https://www.acmicpc.net/problem/1004)  
 [수열](https://www.acmicpc.net/problem/2559)  
 [주유소](https://www.acmicpc.net/problem/13305)  
-[게임](https://www.acmicpc.net/problem/1072)
+[게임](https://www.acmicpc.net/problem/1072)  
+[징검다리](https://www.acmicpc.net/problem/11561)  
 
 ### Silver Ⅱ
 [회의실 배정](https://www.acmicpc.net/problem/1931)   
