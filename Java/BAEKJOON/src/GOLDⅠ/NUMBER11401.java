@@ -1,4 +1,4 @@
-package GOLD¥°;
+package GOLDâ… ;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -29,7 +29,7 @@ static long P = 1000000007;
 		return result;
 	}
 	
-	// base: ¹Ø, expo: Áö¼ö
+	// base: ï¿½ï¿½, expo: ï¿½ï¿½ï¿½ï¿½
 	public static long FIT(long base, long expo) {
 		
 		

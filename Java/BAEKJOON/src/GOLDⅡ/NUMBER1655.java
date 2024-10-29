@@ -1,4 +1,4 @@
-package GOLD¥±;
+package GOLDâ…¡;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,19 +10,19 @@ public class NUMBER1655 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int N = Integer.parseInt(br.readLine());
-		PriorityQueue<Integer> lheap = new PriorityQueue<Integer>(); // ÀÛÀº °ª ÀúÀåÇÒ Èü
-		PriorityQueue<Integer> rheap = new PriorityQueue<Integer>(); // Å« °ª ÀúÀåÇÒ Èü
+		PriorityQueue<Integer> lheap = new PriorityQueue<Integer>(); // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
+		PriorityQueue<Integer> rheap = new PriorityQueue<Integer>(); // Å« ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
 		int num;
 		StringBuilder sb = new StringBuilder();
 		
 		for(int i = 0; i < N; i++) {
 			num = Integer.parseInt(br.readLine());
 			lheap.add(-1 * num);
-			// ±æÀÌ°¡ ¾È¸ÂÀ»¶§ ¿ÞÂÊ Èü Å« °ªÀ» ¿À¸£ÂÊ Èü¿¡ Ãß°¡ÇÑ´Ù.
+			// ï¿½ï¿½ï¿½Ì°ï¿½ ï¿½È¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ Å« ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ï¿½Ñ´ï¿½.
 			if (lheap.size() - 1 > rheap.size()) {
 				rheap.add(-1 * lheap.poll());
 			}
-			// ¿ÞÂÊ Èü°ú ¿À¸¥ÂÊ ÈüÀÌ ¾È¸ÂÀ»¶§ ¸ÂÃß´Â ÀÛ¾÷
+			// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½È¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ß´ï¿½ ï¿½Û¾ï¿½
 			if (!rheap.isEmpty() && (-1 * lheap.peek() > rheap.peek())) {
 				rheap.add(-1 * lheap.poll());
 				lheap.add(-1 * rheap.poll());

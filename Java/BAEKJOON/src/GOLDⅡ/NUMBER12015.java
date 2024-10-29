@@ -1,4 +1,4 @@
-package GOLD¥±;
+package GOLDâ…¡;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -18,10 +18,10 @@ public class NUMBER12015 {
 		for(int i = 0; i < N; i++) {
 			array[i] = Integer.parseInt(st.nextToken());
 		}
-		// Ã³À½¿¡ ¸Ç µÚ¿¡ °ªÀÌ¶û ºñ±³ÇÏ±âÀ§ÇØ¼­ ¼ö¿­ ºÎºÐ¿¡ Ã¹¹øÂ° ÀÎµ¦½º °ªÀÌ ¿È
+		// Ã³ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ú¿ï¿½ ï¿½ï¿½ï¿½Ì¶ï¿½ ï¿½ï¿½ï¿½Ï±ï¿½ï¿½ï¿½ï¿½Ø¼ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ÎºÐ¿ï¿½ Ã¹ï¿½ï¿½Â° ï¿½Îµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
 		sequense[0] = array[0];
 		int start, end, mid;
-		int size = 0; // sequenseÀÇ ÇöÀç ¹è¿­ »çÀÌÁî
+		int size = 0; // sequenseï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½è¿­ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		for(int i = 1; i < N; i++) {
 			if (sequense[size] < array[i]) {
 				size++;

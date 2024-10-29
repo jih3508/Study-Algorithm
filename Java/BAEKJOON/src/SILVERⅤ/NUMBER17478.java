@@ -1,39 +1,39 @@
-package SILVER¥´;
+package SILVERâ…¤;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class NUMBER17478 {
-	
+
 	static int count = 0;
-	
-    public static void main(String[] args) throws IOException{
 
-	   	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	   	count =  Integer.valueOf(br.readLine());
-	   	System.out.println("¾î´À ÇÑ ÄÄÇ»ÅÍ°øÇÐ°ú ÇÐ»ýÀÌ À¯¸íÇÑ ±³¼ö´ÔÀ» Ã£¾Æ°¡ ¹°¾ú´Ù.");
-	   	printRecurcive(0);
-    }
-    
-    public static void printRecurcive(int n) {
-    	String hipun = "";
-  		for(int i = 0; i < n; i++) {
-  			 hipun += "____";
-  		 }
-    	
-    	if(n < count) {   		 
-	   		 System.out.println(hipun + "\"Àç±ÍÇÔ¼ö°¡ ¹º°¡¿ä?\"");
-	   		 System.out.println(hipun + "\"Àß µé¾îº¸°Ô. ¿¾³¯¿¾³¯ ÇÑ »ê ²À´ë±â¿¡ ÀÌ¼¼»ó ¸ðµç Áö½ÄÀ» Åë´ÞÇÑ ¼±ÀÎÀÌ ÀÖ¾ú¾î.");
-	   		 System.out.println(hipun + "¸¶À» »ç¶÷µéÀº ¸ðµÎ ±× ¼±ÀÎ¿¡°Ô ¼ö¸¹Àº Áú¹®À» Çß°í, ¸ðµÎ ÁöÇý·Ó°Ô ´ë´äÇØ ÁÖ¾úÁö.");
-	   		 System.out.println(hipun + "±×ÀÇ ´äÀº ´ëºÎºÐ ¿Ç¾Ò´Ù°í ÇÏ³×. ±×·±µ¥ ¾î´À ³¯, ±× ¼±ÀÎ¿¡°Ô ÇÑ ¼±ºñ°¡ Ã£¾Æ¿Í¼­ ¹°¾ú¾î.\"");
-	   		 printRecurcive(n + 1);
-	   		 System.out.println(hipun + "¶ó°í ´äº¯ÇÏ¿´Áö.");
-   	 	}else if(n == count) {
-	   	 	System.out.println(hipun + "\"Àç±ÍÇÔ¼ö°¡ ¹º°¡¿ä?\"");
-	   	 	System.out.println(hipun + "\"Àç±ÍÇÔ¼ö´Â ÀÚ±â ÀÚ½ÅÀ» È£ÃâÇÏ´Â ÇÔ¼ö¶ó³×\"");
-	   	 	System.out.println(hipun + "¶ó°í ´äº¯ÇÏ¿´Áö.");
-   	 	}
+	public static void main(String[] args) throws IOException{
 
-    }
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		count =  Integer.valueOf(br.readLine());
+		System.out.println("ì–´ëŠ í•œ ì»´í“¨í„°ê³µí•™ê³¼ í•™ìƒì´ ìœ ëª…í•œ êµìˆ˜ë‹˜ì„ ì°¾ì•„ê°€ ë¬¼ì—ˆë‹¤.");
+		printRecurcive(0);
+	}
+
+	public static void printRecurcive(int n) {
+		String hipun = "";
+		for(int i = 0; i < n; i++) {
+			hipun += "____";
+		}
+
+		if(n < count) {
+			System.out.println(hipun + "\"ìž¬ê·€í•¨ìˆ˜ê°€ ë­”ê°€ìš”?\"");
+			System.out.println(hipun + "\"ìž˜ ë“¤ì–´ë³´ê²Œ. ì˜›ë‚ ì˜›ë‚  í•œ ì‚° ê¼­ëŒ€ê¸°ì— ì´ì„¸ìƒ ëª¨ë“  ì§€ì‹ì„ í†µë‹¬í•œ ì„ ì¸ì´ ìžˆì—ˆì–´.");
+			System.out.println(hipun + "ë§ˆì„ ì‚¬ëžŒë“¤ì€ ëª¨ë‘ ê·¸ ì„ ì¸ì—ê²Œ ìˆ˜ë§Žì€ ì§ˆë¬¸ì„ í–ˆê³ , ëª¨ë‘ ì§€í˜œë¡­ê²Œ ëŒ€ë‹µí•´ ì£¼ì—ˆì§€.");
+			System.out.println(hipun + "ê·¸ì˜ ë‹µì€ ëŒ€ë¶€ë¶„ ì˜³ì•˜ë‹¤ê³  í•˜ë„¤. ê·¸ëŸ°ë° ì–´ëŠ ë‚ , ê·¸ ì„ ì¸ì—ê²Œ í•œ ì„ ë¹„ê°€ ì°¾ì•„ì™€ì„œ ë¬¼ì—ˆì–´.\"");
+			printRecurcive(n + 1);
+			System.out.println(hipun + "ë¼ê³  ë‹µë³€í•˜ì˜€ì§€.");
+		}else if(n == count) {
+			System.out.println(hipun + "\"ìž¬ê·€í•¨ìˆ˜ê°€ ë­”ê°€ìš”?\"");
+			System.out.println(hipun + "\"ìž¬ê·€í•¨ìˆ˜ëŠ” ìžê¸° ìžì‹ ì„ í˜¸ì¶œí•˜ëŠ” í•¨ìˆ˜ë¼ë„¤\"");
+			System.out.println(hipun + "ë¼ê³  ë‹µë³€í•˜ì˜€ì§€.");
+		}
+
+	}
 }
