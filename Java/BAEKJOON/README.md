@@ -26,7 +26,7 @@
 [수열](https://www.acmicpc.net/problem/2559)  
 [주유소](https://www.acmicpc.net/problem/13305)  
 [게임](https://www.acmicpc.net/problem/1072)  
-[징검다리](https://www.acmicpc.net/problem/11561)  
+[징검다리](https://www.acmicpc.net/problem/11561)
 
 ## Silver Ⅱ
 
@@ -36,7 +36,8 @@
 [아이들과 선물 상자](https://www.acmicpc.net/problem/23757)  
 [트리의 부모 찾기](https://www.acmicpc.net/problem/11725)  
 [N과 M (9)](https://www.acmicpc.net/problem/15663)  
-[알고리즘 수업 - 깊이 우선 탐색 1](https://www.acmicpc.net/problem/24479)    
+[알고리즘 수업 - 깊이 우선 탐색 1](https://www.acmicpc.net/problem/24479)      
+[가장 긴 감소하는 부분 수열](https://www.acmicpc.net/problem/11722)
 
 ## Silver Ⅰ
 
