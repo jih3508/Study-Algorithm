@@ -1,4 +1,4 @@
-package BRONZE¥´;
+package BRONZEâ…¤;
 
 import java.io.IOException;
 import java.util.Scanner;
