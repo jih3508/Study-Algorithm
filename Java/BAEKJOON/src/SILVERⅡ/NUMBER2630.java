@@ -1,4 +1,4 @@
-package SILVER¥±;
+package SILVERâ…¡;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -29,10 +29,10 @@ public class NUMBER2630 {
 	
 	public static void divied(int x, int y, int n) {
 		boolean flag = true;
-		// »öÁ¾ÀÌ ÅëÀÏ µÇ¾î ÀÖ´ÂÁö Å½»ö
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ç¾ï¿½ ï¿½Ö´ï¿½ï¿½ï¿½ Å½ï¿½ï¿½
 		for(int i = 0; i < n; i++) {
 			for(int j = 0; j < n; j++) {
-				// ´Ù¸¥ »ö ÇÏ³ª ÀÖÀ» °æ¿ì
+				// ï¿½Ù¸ï¿½ ï¿½ï¿½ ï¿½Ï³ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 				if(paper[x][y] != paper[x + i][y + j]) {
 					flag = false;
 					break;
@@ -40,7 +40,7 @@ public class NUMBER2630 {
 				if(!flag) break;
 			}
 		}
-		// Å½»öÇÑ ¿µ¿ªÀÌ ÇÑ°¡Áö »öÀ¸·Î ÅëÀÏµÈ °æ¿ì
+		// Å½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ñ°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ïµï¿½ ï¿½ï¿½ï¿½
 		if (flag) {
 			if(paper[x][y] == 0) {
 				white++;
