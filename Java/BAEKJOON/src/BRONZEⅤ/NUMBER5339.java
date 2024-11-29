@@ -1,4 +1,4 @@
-package BRONZE¥´;
+package BRONZEâ…¤;
 
 public class NUMBER5339 {
 	public static void main(String[] args) {
