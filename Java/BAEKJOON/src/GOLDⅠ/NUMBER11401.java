@@ -10,14 +10,21 @@ public class NUMBER11401 {
 static long P = 1000000007;
 	
 	public static void main(String[] args) throws IOException {
+		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));		
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		long N = Integer.parseInt(st.nextToken());
 		long K = Integer.parseInt(st.nextToken());
-		
+
+		/*
+		 * 분자: N
+		 * 분모: (K! * (N-K)!) mod p
+		 * N! * 분모의 역원((K! * (N-K)!)
+		 */
 		System.out.println(factorial(N)  * FIT(factorial(N - K) * factorial(K) % P, P - 2)  % P );
 	}
-	
+
+	// 팩토리얼 함수
 	public static long factorial(long n) {
 		
 		long result = 1L;
@@ -28,8 +35,12 @@ static long P = 1000000007;
 		}
 		return result;
 	}
-	
-	// base: ��, expo: ����
+
+	/*
+	 * 역원 구하는 함수
+	 * base : 밑,   expo = 지수 (exponent)
+	 * 거듭 제곱을 분할 정복 방식으로 푼다.
+	 */
 	public static long FIT(long base, long expo) {
 		
 		
