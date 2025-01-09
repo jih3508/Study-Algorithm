@@ -1,6 +1,5 @@
 from typing import List
 
-
 class Solution:
     def pivotArray(self, nums: List[int], pivot: int) -> List[int]:
 
@@ -27,9 +26,9 @@ class Solution:
         return before + middle + after
 
 
-solutio = Solution()
+solution = Solution()
 nums = [9, 12, 5, 10, 14, 3, 10]
-print(solutio.pivotArray(nums, 10))
+print(solution.pivotArray(nums, 10))
 
 nums = [-3, 4, 3, 2]
-print(solutio.pivotArray(nums, 2))
+print(solution.pivotArray(nums, 2))
