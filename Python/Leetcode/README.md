@@ -7,3 +7,4 @@
 - [ Course Schedule](https://leetcode.com/problems/course-schedule/description/)
 - [Decode Ways](https://leetcode.com/problems/decode-ways/description/)
 - [Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/description/)
+- [Maximum Possible Number by Binary Concatenation](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/description/)
