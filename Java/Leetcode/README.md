@@ -8,3 +8,4 @@
 - [Decode Ways](https://leetcode.com/problems/decode-ways/description/)
 - [Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/description/)  
 - [Maximum Possible Number by Binary Concatenation](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/description/)
+- [Sum of Beauty of All Substrings](https://leetcode.com/problems/sum-of-beauty-of-all-substrings/description/)

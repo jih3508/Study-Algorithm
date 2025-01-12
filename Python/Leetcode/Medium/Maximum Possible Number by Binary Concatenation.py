@@ -1,6 +1,11 @@
 from typing import List
 from itertools import permutations
 
+'''
+- 문제: 네트워크
+- Level3
+- url: https://school.programmers.co.kr/learn/courses/30/lessons/43162
+'''
 
 class Solution:
     def maxGoodNumber(self, nums: List[int]) -> int:
@@ -22,3 +27,4 @@ nums = [1, 2, 3]
 print(solution.maxGoodNumber(nums))
 nums = [2, 8, 16]
 print(solution.maxGoodNumber(nums))
+print(bin(10))
