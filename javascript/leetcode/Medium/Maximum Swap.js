@@ -4,7 +4,7 @@
  */
 var maximumSwap = function(num) {
   let maxNum = num;
-  let numArray = num.toString().split('').map(n => parseInt(n));
+  let numArray = num.toString().split('');
   const size = numArray.length;
 
   for (let i = 0; i < size - 1; i++) {
