@@ -9,8 +9,8 @@ function solution(friends, gifts) {
         friendInfo[friends[i]] = i;
     }
 
-    gifts.forEach(gif => {
-        const srt = gift.split(" ");
+    gifts.forEach(gift => {
+        const str = gift.split(" ");
         if(giftCount[str[0]]){
             giftCount[str[0]]++;
         }else{
