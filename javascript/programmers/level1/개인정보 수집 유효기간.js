@@ -1,3 +1,7 @@
+/*
+ * 개인정보 수집 유효기간
+ * https://school.programmers.co.kr/learn/courses/30/lessons/150370
+ */
 function solution(today, terms, privacies) {
     /*
      * 일자를 일자로 변환
@@ -9,7 +13,7 @@ function solution(today, terms, privacies) {
         return (Number(year) * 12 * 28) + (Number(month) * 28) + Number(day);
     };
 
-    //
+    // 약관 정보 저장
     let termInfo = new Map();
     terms.forEach((termData) => {
         [term, month] = termData.split(' ');
