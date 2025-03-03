@@ -15,7 +15,7 @@ var maximumSwap = function(num) {
       numArray[i] = numArray[j];
       numArray[j] = tmp;
 
-      // 기존 값이랑 바뀐 값중 더 큰 값으로 저장 한다.
+      // 숫자를 다시 정수로 변환하여 최대값과 비교 후 갱신
       maxNum= Math.max(maxNum, parseInt(numArray.join('')))
 
       // 다시 원 위치
@@ -31,7 +31,6 @@ var maximumSwap = function(num) {
 };
 
 console.log(maximumSwap(2736))
-
 console.log(maximumSwap(9973))
 
 

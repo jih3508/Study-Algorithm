@@ -24,6 +24,7 @@ public class MaximumSwap {
         nums[i] = nums[j];
         nums[j] = temp;
 
+        // 숫자를 다시 정수로 변환하여 최대값과 비교 후 갱신
         maxNum = Math.max(maxNum, arrayToInteger(nums));
 
         // 다시 원위치
