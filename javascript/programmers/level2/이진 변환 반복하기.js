@@ -4,7 +4,7 @@
  */
 function solution(s) {
 
-    let answer = [0, 0] /이진 변환 횟수, 0이 제거 된 횟수/
+    let answer = [0, 0] //이진 변환 횟수, 0이 제거 된 횟수/
 
     while (s !== "1") {
         answer[0]++; // 변환 회수 추가

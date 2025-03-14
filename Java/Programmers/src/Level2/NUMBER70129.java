@@ -17,7 +17,7 @@ public class NUMBER70129 {
             String after = s;
             after = after.replaceAll("0", ""); // 문자 0을 제거
             answer[1] += s.length() - after.length(); // 기존 문자열과 0을 제거 차이 추가하기
-            s = Integer.toBinaryString(after.length()); // 문자 길이를 이진수로 변환후 저저아
+            s = Integer.toBinaryString(after.length()); // 문자 길이를 이진수로 변환
         }
 
         return answer;
