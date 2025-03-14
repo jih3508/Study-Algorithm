@@ -37,6 +37,7 @@ public class NUMBER150370 {
     /*
      * 일자를 일자로 변환
      * year * 12 * 28 + month * 28 + day
+     *  yyyy.mm.dd
      */
     public long dateToDays(String date){
         String[] arrayDate = date.split("\\.");
