@@ -18,7 +18,6 @@ class Queue{
     constructor(){
         this.items = [];
         this.start = 0;
-        this.end = 0;
         this.size = 0;
     }
 
@@ -26,7 +25,6 @@ class Queue{
     push(val){
         this.items.push(val);
         this.size++;
-        this.end += 1;
     }
 
     pop(){
