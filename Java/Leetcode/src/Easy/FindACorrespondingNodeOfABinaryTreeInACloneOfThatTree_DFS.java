@@ -7,7 +7,7 @@ import java.util.Stack;
  * https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/description/
  */
 
-public class FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree {
+public class FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree_DFS {
 
       public class TreeNode {
           int val;
