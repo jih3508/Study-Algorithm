@@ -17,15 +17,24 @@
 ### GOLD Ⅲ
 ### GOLD Ⅱ
 ### GOLD Ⅰ
+
+### PLATINUM Ⅴ
+---
+## Progammerse
+### 2020Kakao fist Coding Test
+### Level 1
+
+---
+## Leetcode
+### Easy
+### Medium
+
 ---
 ## Coding Star
 ### Gold2
 ### Gold1
 
----
-## Progammerse
-### 2020Kakao fist Coding Test
-### Level 1
+
 ---
 
 ## 매일프로그래밍
