@@ -1,6 +1,6 @@
 /**
- * @param {number[]} nums
- * @return {number[]}
+ * 2574. Left and Right Sum Differences
+ * https://leetcode.com/problems/left-and-right-sum-differences/description/
  */
 var leftRightDifference = function(nums) {
     const size = nums.length;
@@ -17,6 +17,7 @@ var leftRightDifference = function(nums) {
         rightNums[i] = nums[i + 1] + rightNums[i + 1];
     }
 
+    // 각 항목 최대값 추가
     const result = Array(size).fill(0);
     for (let i = 0; i < size; i++) {
         result[i] = Math.abs(leftNums[i] - rightNums[i]);
