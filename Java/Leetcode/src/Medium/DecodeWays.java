@@ -5,7 +5,9 @@ import java.util.Arrays;
 public class DecodeWays {
 
 	 public int numDecodings(String s) {
-		 
+
+
+
 		 if(s.charAt(0) == '0') return 0;
 		 
 		 int lenth = s.length();
