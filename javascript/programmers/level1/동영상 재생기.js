@@ -6,8 +6,8 @@ function solution(video_len, pos, op_start, op_end, commands) {
 
     // 시간을 정수로 변환 (mm::ss -> m * 60 + s)
     const timeToNumber = (time) =>{
-        const [m, s] = time.split(":")
-        return Number(m) * 60 + Number(s)
+        const [m, s] = time.split(":").map(Number);
+        return m * 60 + s
     }
 
     // 정수를 시간으로 변환 (number -> mm:ss)
