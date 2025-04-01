@@ -2,7 +2,6 @@
  * 동영상 재생기
  * https://school.programmers.co.kr/learn/courses/30/lessons/340213
  */
-
 function solution(video_len, pos, op_start, op_end, commands) {
 
     // 시간을 정수로 변환 (mm::ss -> m * 60 + s)
@@ -28,13 +27,12 @@ function solution(video_len, pos, op_start, op_end, commands) {
             now = opEnd;
         }
         switch (command) {
-            // 다음 10초
-            case "next":
-                // 10초 이동이거나 재생 끝으로 이동
+            case "next": // 10초후
+                // 10초후 이동히거나 재생 끝으로 이동
                 now = Math.min(now + 10, videoLen);
                 break;
-            case "prev":
-                // 10초 이전이거나 재생 시작점 이동
+            case "prev": // 10초전
+                // 10초 전으로 이동하거나 재생 시작점 이동
                 now = Math.max(now - 10, 0);
                 break;
         }
