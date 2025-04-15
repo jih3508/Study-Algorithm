@@ -11,3 +11,4 @@
 - [Sum of Beauty of All Substrings](https://leetcode.com/problems/sum-of-beauty-of-all-substrings/description/)
 - [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)
 - [String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/description/)
+- [Brick Wall](https://leetcode.com/problems/brick-wall/description/)
