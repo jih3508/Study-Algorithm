@@ -1,4 +1,4 @@
-package BRONZE¥´;
+package BRONZEâ…¤;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -12,7 +12,7 @@ public class NUMBER9086 {
 		String string;
 		while(N-- > 0) {
 			string = br.readLine();
-			// char + char ¡æ int Áß°£¿¡ ¹®ÀÚ¿­À» ´õÇØ¾ß ÇÑ´Ù.
+			// char + char ï¿½ï¿½ int ï¿½ß°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ø¾ï¿½ ï¿½Ñ´ï¿½.
 			System.out.println(string.charAt(0) + "" + string.charAt(string.length() - 1));
 		}
 		
