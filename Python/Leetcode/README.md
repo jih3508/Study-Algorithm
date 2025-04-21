@@ -12,3 +12,4 @@
 - [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)
 - [String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/description/)
 - [Brick Wall](https://leetcode.com/problems/brick-wall/description/)
+- [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/description/)
