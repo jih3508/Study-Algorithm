@@ -1,8 +1,11 @@
 package Medium;
 
 import java.util.Arrays;
-
-public class MaximumIceCreamBars {
+/*
+    - 1833. Maximum Ice Cream Bars
+    - https://leetcode.com/problems/maximum-ice-cream-bars/description/
+ */
+public class MaximumIceCreamBars_Greedy {
 
     public int maxIceCream(int[] costs, int coins) {
         int count = 0;  // 구매할 수 있는 아이스크림 바의 개수
@@ -27,7 +30,7 @@ public class MaximumIceCreamBars {
     }
 
     public static void main(String[] args) {
-        MaximumIceCreamBars obj = new MaximumIceCreamBars();
+        MaximumIceCreamBars_Greedy obj = new MaximumIceCreamBars_Greedy();
         int[] costs = {1,3,2,4,1};
         System.out.println(obj.maxIceCream(costs, 7));
         costs = new int[] {10,6,8,7,7,8};

@@ -1,4 +1,8 @@
 from typing import  List
+"""
+- 1833. Maximum Ice Cream Bars
+- https://leetcode.com/problems/maximum-ice-cream-bars/description/
+"""
 
 class Solution:
     def maxIceCream(self, costs: List[int], coins: int) -> int:
