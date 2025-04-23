@@ -1,4 +1,4 @@
-package PLATINUM¥´;
+package PLATINUMâ…¤;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -34,7 +34,7 @@ static long[] heights;
 		long height = Math.min(heights[lmid], heights[rmid]);
 		area = Math.max(area, height * 2);
 		while(l < lmid || rmid < r) {
-			// ³ÐÀÌ Å« ¼ø¼­´ë·Î Å½»öÇÑ´Ù.
+			// ï¿½ï¿½ï¿½ï¿½ Å« ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Å½ï¿½ï¿½ï¿½Ñ´ï¿½.
 			if(rmid < r && ((lmid <= l) || (heights[lmid - 1] < heights[rmid + 1]))) {
 				rmid++;
 				height = Math.min(height, heights[rmid]);

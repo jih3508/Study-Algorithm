@@ -1,4 +1,4 @@
-package GOLD¥´;
+package GOLDâ…¤;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -20,7 +20,7 @@ public class NUMBER1092 {
 		Arrays.sort(cranes, Collections.reverseOrder());
 		int M = Integer.parseInt(br.readLine());
 		st = new StringTokenizer(br.readLine());
-		Integer[] boxs = new Integer[M]; // collection ÇÔ¼ö »ç¿ëÇÏ±â À§ÇØ¼­ °´Ã¼ÇüÀ¸·Î ¼±¾ð
+		Integer[] boxs = new Integer[M]; // collection ï¿½Ô¼ï¿½ ï¿½ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½Ø¼ï¿½ ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		for(int i = 0; i < M; i++) {
 			boxs[i] = Integer.parseInt(st.nextToken());
 		}
@@ -30,13 +30,13 @@ public class NUMBER1092 {
 			System.out.println(-1);
 			System.exit(0);
 		}
-		int[] position = new int[N]; // °¢ Å©·¹ÀÎÀÌ ÇöÀç ¿Å°Ü¾ß ÇÏ´Â ¹Ú½ºÀÇ ¹øÈ£(0ºÎÅÍ ½ÃÀÛ)
-		boolean[] checked = new boolean[M]; // ¹Ú½º ¿Å°Ü´ÂÁö Ã¼Å©
+		int[] position = new int[N]; // ï¿½ï¿½ Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Å°Ü¾ï¿½ ï¿½Ï´ï¿½ ï¿½Ú½ï¿½ï¿½ï¿½ ï¿½ï¿½È£(0ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½)
+		boolean[] checked = new boolean[M]; // ï¿½Ú½ï¿½ ï¿½Å°Ü´ï¿½ï¿½ï¿½ Ã¼Å©
 		int count = 0;
 		int result = 0;
 		while (true){
 			if( count == M) break;
-			// ÀÌ¹ø Å¸ÀÓ¿¡ °¢ Å©·¹ÀÎ ½ÇÀ»¼ö ÀÖ´Â ¹Ú½º Á¶»ç 
+			// ï¿½Ì¹ï¿½ Å¸ï¿½Ó¿ï¿½ ï¿½ï¿½ Å©ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½Ú½ï¿½ ï¿½ï¿½ï¿½ï¿½ 
 			for(int i = 0; i < N; i++) {
 				while (position[i] < M) {
 					if(!checked[position[i]] && cranes[i] >= boxs[position[i]]) {

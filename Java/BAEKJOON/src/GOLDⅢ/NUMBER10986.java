@@ -1,4 +1,4 @@
-package GOLD¥²;
+package GOLDâ…¢;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -22,7 +22,7 @@ public class NUMBER10986 {
 			divided[prefix_sum]++;
 		}
 		
-		// ´äÀÌ Integer º¸´Ù ¹üÀ§°¡ Å¬¼ö ÀÖ¾î¼­ LongÅ¸ÀÔÀ¸·Î ¼±¾ðÇÑ´Ù.
+		// ï¿½ï¿½ï¿½ï¿½ Integer ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Å¬ï¿½ï¿½ ï¿½Ö¾î¼­ LongÅ¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½.
 		long count = divided[0];
 		
 		for(int i : divided) {

@@ -1,4 +1,4 @@
-package GOLD¥´;
+package GOLDâ…¤;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -23,7 +23,7 @@ public class NUMBER2565 {
 			}
 		}
 		
-		// 2Â÷¿ø ¹è¿­ Á¤·Ä
+		// 2ï¿½ï¿½ï¿½ï¿½ ï¿½è¿­ ï¿½ï¿½ï¿½ï¿½
 		Arrays.sort(wires, new Comparator<int[]>() {
 
 			@Override
