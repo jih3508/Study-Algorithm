@@ -54,6 +54,7 @@
 
 ## GOLD Ⅳ
 - [검문](https://www.acmicpc.net/problem/2981)
+- [이진 검색 트리](https://www.acmicpc.net/problem/5639)
 
 ## GOLD Ⅳ
 - [플로이드](https://www.acmicpc.net/problem/11404)
