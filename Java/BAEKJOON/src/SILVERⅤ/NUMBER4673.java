@@ -1,4 +1,4 @@
-package SILVER¥´;
+package SILVERâ…¤;
 
 public class NUMBER4673 {
 	

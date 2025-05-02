@@ -1,4 +1,4 @@
-package SILVER¥´;
+package SILVERâ…¤;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -33,7 +33,7 @@ public class NUMBER2740 {
 		
 		int[][] result = new int[N][K];
 		
-		// Çà·Ä¿¬»ê
+		// ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½
 		for(int i = 0; i < N; i++) {
 			for(int j = 0; j < K; j ++) {
 				result[i][j] = 0;
