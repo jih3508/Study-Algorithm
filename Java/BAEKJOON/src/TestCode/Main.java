@@ -3,8 +3,8 @@ package TestCode;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.List;
+
 
 public class Main {
 
@@ -13,15 +13,24 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader((System.in)));
-		nodes = new ArrayList<>();
-		nodes.add(Integer.valueOf(br.readLine()));
-		String line;
-		while ((line = br.readLine()) != null && !line.isEmpty()) {
-			nodes.add(Integer.valueOf(line));
-		}
+		int T = Integer.parseInt(br.readLine());
 
-		// 전체 트리에 대해 후위 순회 수행 (0부터 마지막 인덱스까지)
-		postOrder(0, nodes.size() - 1);
+		for (int i = 0; i < T; i++) {
+			int C = Integer.parseInt(br.readLine());
+
+			int quarter = C / 25;
+			C %= 25;
+
+			int dime = C / 10;
+			C %= 10;
+
+			int nickel = C / 5;
+			C %=  5;
+
+			int penny = C;
+
+			System.out.println(String.format("%d %d %d %d", quarter, dime, nickel, penny));
+		}
 
 	}
 
