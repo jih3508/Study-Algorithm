@@ -1,4 +1,4 @@
-package SILVER¥°;
+package SILVERâ… ;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -27,4 +27,5 @@ public class NUMBER2156 {
 		}
 		System.out.println(dp[n-1]);
 	}
+
 }
