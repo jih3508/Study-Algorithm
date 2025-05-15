@@ -5,6 +5,7 @@
 - [그대로 출력하기](https://www.acmicpc.net/problem/11718)
 ### Bronze Ⅳ
 ### Bronze Ⅲ
+- [중앙 이동 알고리즘](https://www.acmicpc.net/problem/2903)
 ### Bronze Ⅱ
 ### Bronze Ⅰ
 
