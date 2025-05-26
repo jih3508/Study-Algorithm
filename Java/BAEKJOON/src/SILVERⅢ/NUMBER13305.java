@@ -1,4 +1,4 @@
-package SILVER¥²;
+package SILVERâ…¢;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -21,11 +21,11 @@ public class NUMBER13305 {
 			costs[i] = Integer.parseInt(st.nextToken());
 		}
 		
-		// Ã³À½¿¡´Â ¹«Á¶°Ç ±â¸§Àº ³Ö¾î¾ß ÇÏ±â¶§¹®¿¡ ¸Ç¾Õ¿¡ ºñ¿ë°ú °Å¸®·Î ¼³Á¤ÇÑ´Ù.
+		// Ã³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½â¸§ï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½ ï¿½Ï±â¶§ï¿½ï¿½ï¿½ï¿½ ï¿½Ç¾Õ¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Å¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½.
 		long total_cost = (long) roads[0] * costs[0];
 		int cost = costs[0];
 		for(int i = 1; i < N - 1; i++) {
-			// ÀÌÀü °¡°ÝÀÌ¶û ºñ±³ÇØ¼­ ½Ñ°Í À§ÁÖ·Î ±â¸§À» ³Ö´Â´Ù.
+			// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ì¶ï¿½ ï¿½ï¿½ï¿½Ø¼ï¿½ ï¿½Ñ°ï¿½ ï¿½ï¿½ï¿½Ö·ï¿½ ï¿½â¸§ï¿½ï¿½ ï¿½Ö´Â´ï¿½.
 			if (costs[i] < cost) cost = costs[i];
 			total_cost += (long) roads[i] * cost;
 		}
