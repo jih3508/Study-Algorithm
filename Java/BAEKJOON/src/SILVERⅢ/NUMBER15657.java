@@ -1,4 +1,4 @@
-package SILVER¥²;
+package SILVERâ…¢;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -23,7 +23,7 @@ public class NUMBER15657 {
 		for(int i = 0; i < N; i++) {
 			array[i] = Integer.parseInt(st.nextToken());
 		}
-		// ³»¸²Â÷¼øÀ¸·Î Ãâ·ÂÇÏ±â À§ÇØ¼­ ¹è¿­ Á¤·Ä
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½Ø¼ï¿½ ï¿½è¿­ ï¿½ï¿½ï¿½ï¿½
 		Arrays.sort(array);
 		
 		NM(0, 0);
@@ -39,7 +39,7 @@ public class NUMBER15657 {
 			return ;
 		} 
 		
-		// Ãâ·Â a1 <= a2 <= a3 Ã³¸® ÇÏ±â À§ÇØ¼­ ÀÎµ¦½º a1 ºÎÅÍ ½ÃÀÛÇÏµµ·Ï ÇÑ´Ù. 
+		// ï¿½ï¿½ï¿½ a1 <= a2 <= a3 Ã³ï¿½ï¿½ ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½Ø¼ï¿½ ï¿½Îµï¿½ï¿½ï¿½ a1 ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ïµï¿½ï¿½ï¿½ ï¿½Ñ´ï¿½. 
 		for(int i = x; i < N; i++) {
 			result[k] = array[i];
 			NM(k + 1, i);
