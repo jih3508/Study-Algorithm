@@ -23,7 +23,7 @@ public class NUMBER15657 {
 		for(int i = 0; i < N; i++) {
 			array[i] = Integer.parseInt(st.nextToken());
 		}
-		// ������������ ����ϱ� ���ؼ� �迭 ����
+		// 내림차순으로 출력하기 위해서 배열 정렬
 		Arrays.sort(array);
 		
 		NM(0, 0);
@@ -37,9 +37,9 @@ public class NUMBER15657 {
 			}
 			sb.append("\n");
 			return ;
-		} 
-		
-		// ��� a1 <= a2 <= a3 ó�� �ϱ� ���ؼ� �ε��� a1 ���� �����ϵ��� �Ѵ�. 
+		}
+
+		// 출력 a1 <= a2 <= a3 처리 하기 위해서 인덱스 a1 부터 시작하도록 한다.
 		for(int i = x; i < N; i++) {
 			result[k] = array[i];
 			NM(k + 1, i);
