@@ -11,7 +11,7 @@ public class NUMBER24266 {
 
         BufferedReader br = new BufferedReader(new InputStreamReader((System.in)));
         BigInteger n = new BigInteger(br.readLine());
-        System.out.println(n.multiply(n).multiply(n));
+        System.out.println(n.pow(3));
         System.out.println(3);
 
     }

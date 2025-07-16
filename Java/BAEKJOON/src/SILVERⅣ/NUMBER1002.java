@@ -1,4 +1,4 @@
-package SILVER¥³;
+package SILVERâ…£;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -30,29 +30,29 @@ public class NUMBER1002 {
     }
 	
 	public static int tangent_point(int x1, int y1, int r1, int x2, int y2, int r2) {
-		int distance_pow = (int)(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));	// ÁßÁ¡°£ °Å¸® distanceÀÇ Á¦°ö 
+		int distance_pow = (int)(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Å¸ï¿½ distanceï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 
 		 
-		// case 1 : ÁßÁ¡ÀÌ °°À¸¸é¼­ ¹ÝÁö¸§µµ °°À» °æ¿ì
+		// case 1 : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½é¼­ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 		if(x1 == x2 && y1 == y2 && r1 == r2) {
 			return -1;
 		}
 		
-		// case 2-1 : µÎ ¿øÀÇ ¹ÝÁö¸§ ÇÕº¸´Ù ÁßÁ¡°£ °Å¸®°¡ ´õ ±æ ¶§ 
+		// case 2-1 : ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Õºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Å¸ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ 
 		else if(distance_pow > Math.pow(r1 + r2, 2)) {
 			return 0;
 		}
  
-		// case 2-2 : ¿ø ¾È¿¡ ¿øÀÌ ÀÖÀ¸³ª ³»Á¢ÇÏÁö ¾ÊÀ» ¶§ 
+		// case 2-2 : ï¿½ï¿½ ï¿½È¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ 
 		else if(distance_pow < Math.pow(r2 - r1, 2)) {
 			return 0;
 		}
 		
-		// case 3-1 : ³»Á¢ÇÒ ¶§ 
+		// case 3-1 : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ 
 		else if(distance_pow == Math.pow(r2 - r1, 2)) {
 			return 1;
 		}
         
-		// case 3-2 : ¿ÜÁ¢ÇÒ ¶§ 
+		// case 3-2 : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ 
 		else if(distance_pow == Math.pow(r1 + r2, 2)) {
 			return 1;
 		}
