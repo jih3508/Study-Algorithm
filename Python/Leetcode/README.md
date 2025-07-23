@@ -14,3 +14,4 @@
 - [Brick Wall](https://leetcode.com/problems/brick-wall/description/)
 - [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/description/)
 - [Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/description/) > count로 풀기
+- [The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/description/)
