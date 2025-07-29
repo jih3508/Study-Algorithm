@@ -1,4 +1,4 @@
-package SILVER¥³;
+package SILVERâ…£;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -27,7 +27,7 @@ public class NUMBER3036 {
 		
 	}
 	
-	// ÃÖ´ë °ø¾à¼ö ±¸ÇÏ´Â ÇÔ¼ö
+	// ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½Ô¼ï¿½
 	public static int GCD(int x, int y) {
 		int r;
 		while(x % y != 0) {
