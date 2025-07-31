@@ -8,32 +8,34 @@ public class NUMBER2485 {
 
     public static void main(String[] args) throws IOException {
 
-        BufferedReader br = new BufferedReader(new InputStreamReader((System.in)));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        int N = Integer.parseInt(br.readLine());
+        int n = Integer.parseInt(br.readLine());
+        int[] positions = new int[n];
 
-        int[] streetTrees = new int[N];
-
-        for (int i = 0; i < N; i++) {
-            streetTrees[i] = Integer.parseInt(br.readLine());
+        for (int i = 0; i < n; i++) {
+            positions[i] = Integer.parseInt(br.readLine());
         }
 
-        int[] difference = new int[N - 1];
-
-        for (int i = 0; i < N - 1; i++) {
-            difference[i] = Math.abs(streetTrees[i] - streetTrees[i + 1]);
+        // 연속된 가로수들 사이의 거리 계산
+        int[] gaps = new int[n - 1];
+        for (int i = 0; i < n - 1; i++) {
+            gaps[i] = Math.abs(positions[i + 1] - positions[i]);
         }
 
-        int gcd = difference[0];
-        int sum = gcd;
-        int size = difference.length;
+        // 모든 간격의 최대공약수 계산
+        int gcd = gaps[0];
+        int totalDistance = gaps[0];
 
-        for (int i = 1; i < N - 1; i++) {
-            gcd = GCD(gcd, difference[i]);
-            sum += difference[i];
+        for (int i = 1; i < gaps.length; i++) {
+            gcd = GCD(gcd, gaps[i]);
+            totalDistance += gaps[i];
         }
 
-        System.out.println( (sum / gcd) - size);
+        // 필요한 가로수 개수 = (총 거리 / 최소 간격) - 기존 간격 개수
+        System.out.println((totalDistance / gcd) - gaps.length);
+
+        br.close();
 
 
     }

@@ -26,8 +26,10 @@ public class NUMBER3036 {
 		}
 		
 	}
-	
-	// �ִ� ����� ���ϴ� �Լ�
+
+	/**
+	 * 유클리드 호제법을 사용한 최대공약수 계산
+	 */
 	public static int GCD(int x, int y) {
 		int r;
 		while(x % y != 0) {
