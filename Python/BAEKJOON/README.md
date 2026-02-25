@@ -15,6 +15,7 @@
 - [나는야 포켓몬 마스터 이다솜](https://www.acmicpc.net/problem/1620)   
 - [듣보잡](https://www.acmicpc.net/problem/1764)   
 - [알고리즘 수업 - 병합 정렬 1](https://www.acmicpc.net/problem/24060)
+- [다음 소수](https://www.acmicpc.net/problem/4134)
 
 ### Silver Ⅲ
 - [1로 만들기](https://www.acmicpc.net/problem/1463)  
