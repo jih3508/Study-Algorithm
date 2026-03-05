@@ -4,13 +4,13 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class NUMBER32951 {
+public class NUMBER30030 {
 
     public static void main(String[] args) throws IOException {
-
+        
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int N = Integer.parseInt(br.readLine());
+        int B = Integer.parseInt(br.readLine());
 
-        System.out.println(N - 2024);
+        System.out.println(B - B / 11);
     }
 }
