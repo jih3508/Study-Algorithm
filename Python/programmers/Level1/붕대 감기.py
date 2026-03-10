@@ -29,7 +29,7 @@ def solution(bandage, health, attacks):
 
         # 이전 시간 저장
         lastAttackTime = attackTime;
-    
+
     return currentHealth
 
 bandage = [5, 1, 5]
