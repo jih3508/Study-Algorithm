@@ -5,43 +5,38 @@
 
 package Level1;
 
-import java.io.IOException;
-import java.util.Arrays;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class NUMBER77484 {
 
     public int[] solution(int[] lottos, int[] winNums) {
-        try{
 
-            // 당첨번호를 set으로 초기화
-            Set<Integer> winNumsSet = Arrays.stream(winNums).boxed().collect(Collectors.toSet());
+        // 당첨번호를 set으로 초기화
+        Set<Integer> winNumsSet = Arrays.stream(winNums).boxed().collect(Collectors.toSet());
 
-            int unknownCount = 0; // 알아볼 수 없는 번호(0)의 개수
-            int matchCount = 0;   // 실제로 당첨 번호와 일치하는 번호의 개수
+        int unknownCount = 0; // 알아볼 수 없는 번호(0)의 개수
+        int matchCount = 0;   // 실제로 당첨 번호와 일치하는 번호의 개수
 
-            for(int lotto : lottos) {
+        for(int lotto : lottos) {
 
-                // 구매 번호가 0일때 최고 점수+1 해주기
-                if(lotto == 0){
-                    unknownCount++;
-                // 구매 번호가 0이 아닐때 당첨번호 있으면 최고, 최저 점수 추가
-                }else if(winNumsSet.contains(lotto)){
-                    matchCount++;
+            // 구매 번호가 0일때 최고 점수+1 해주기
+            if(lotto == 0){
+                unknownCount++;
+            // 구매 번호가 0이 아닐때 당첨번호 있으면 최고, 최저 점수 추가
+            }else if(winNumsSet.contains(lotto)){
+                matchCount++;
 
-                }
             }
-
-            // 최고 순위: 알아볼 수 없는 번호(0)를 전부 맞춘 것으로 가정
-            int bestRank = calculateRankByCorrectCount(matchCount + unknownCount);
-            // 최저 순위: 알아볼 수 없는 번호(0)를 전부 틀린 것으로 가정
-            int worstRank = calculateRankByCorrectCount(matchCount);
-
-            return new int[] { bestRank, worstRank };
-        }catch (Exception e){
-            throw new UnsupportedOperationException("TODO: solve the problem");
         }
+
+        // 최고 순위: 알아볼 수 없는 번호(0)를 전부 맞춘 것으로 가정
+        int bestRank = calculateRankByCorrectCount(matchCount + unknownCount);
+        // 최저 순위: 알아볼 수 없는 번호(0)를 전부 틀린 것으로 가정
+        int worstRank = calculateRankByCorrectCount(matchCount);
+
+        return new int[] { bestRank, worstRank };
+
 
     }
 
