@@ -7,9 +7,9 @@ function solution(k, d) {
         // x좌표가 주어졌을 때, 원(반지름 d) 안에 들어가는
         // y의 최대값은 피타고라스 정리로 sqrt(d^2 - x^2)
         // y좌표도 0, k, 2k, ... 형태로만 가능 (y = b*k)
-        // max_y를 k로 나눈 몫이 가능한 b의 최댓값
+        // k로 나눈 몫이 가능한 b의 최댓값
         // b는 0부터 시작하므로 +1 하면 이 x에서 찍을 수 있는 점의 개수
-        count += Math.floor(Math.sqrt(k*k - d*d) / num) + 1;
+        count += Math.floor(Math.sqrt(d*d - num*num) / k) + 1;
     }
     return count;
 }
