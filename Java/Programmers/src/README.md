@@ -2,3 +2,4 @@
 
 ## Level2
 - [도넛과 막대 그래프](https://school.programmers.co.kr/learn/courses/30/lessons/258711)
+- [점 찍기](https://school.programmers.co.kr/learn/courses/30/lessons/140107)

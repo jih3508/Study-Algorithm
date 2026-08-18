@@ -9,7 +9,7 @@ def solution(n):
                 answer += 1
             elif accSum > n:
                 break
-    len([i for i in range(1, n + 1, 2) if n % i is 0])
+    len([i for i in range(1, n + 1, 2) if n % i == 0])
     return answer
 
 print(solution(15))
