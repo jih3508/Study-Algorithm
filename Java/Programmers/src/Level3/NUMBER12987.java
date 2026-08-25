@@ -11,23 +11,24 @@ public class NUMBER12987 {
 
     public int solution(int[] A, int[] B) {
 
-        int count = 0;
+        int[] sortedA = A.clone();
+        int[] sortedB = B.clone();
+        Arrays.sort(sortedA);
+        Arrays.sort(sortedB);
 
-        Arrays.sort(A);
-        Arrays.sort(B);
+        int winCount = 0; // B팀이 획득하는 승점(승리 횟수)
+        int aIndex = 0;    // 아직 이기지 못한 A 후보 중 가장 작은 값의 인덱스
 
-        int AIndex = 0;
-        int BIndex = 0;
-
-        while(AIndex < A.length && BIndex < B.length){
-            if(A[AIndex] < B[BIndex]){
-                AIndex++;
-                count++;
+        for (int bIndex = 0; bIndex < sortedB.length && aIndex < sortedA.length; bIndex++) {
+            // 현재 B 값이 남아있는 A 최소값보다 크면 승리
+            if (sortedB[bIndex] > sortedA[aIndex]) {
+                winCount++;
+                aIndex++; // 이긴 A는 소모(다음 매칭에서 제외)
             }
-            BIndex++;
+            // 이기지 못했다면 해당 B는 버리고 다음 B로 넘어감 (aIndex는 그대로 유지)
         }
 
-        return count;
+        return winCount;
     }
 
 
