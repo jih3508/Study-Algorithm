@@ -30,4 +30,7 @@ INSERT INTO Sales (sale_id, product_id, year, quantity, price) VALUES
 SELECT p.product_name, s.year, s.price
 FROM Sales s
 LEFT JOIN Product p
-ON p.product_id = s.product_id
+ON p.product_id = s.product_id;
+
+
+DROP TABLE Product, Sales;
