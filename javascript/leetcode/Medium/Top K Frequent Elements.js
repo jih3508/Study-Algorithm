@@ -1,45 +1,3 @@
-class Heap {
-    constructor(compare = (a, b) => a[0]-b[0]) {
-        this.h = [];
-        this.cmp = compare; // cmp(a, b) < 0 이면 a가 더 위(루트 쪽)
-    }
-
-    size() { return this.h.length; }
-    peek() { return this.h[0]; }
-
-    push(v) {
-        const h = this.h;
-        h.push(v);
-        let i = h.length - 1;
-        while (i > 0) {
-            const p = (i - 1) >> 1;
-            if (this.cmp(h[i], h[p]) >= 0) break;
-            [h[i], h[p]] = [h[p], h[i]];
-            i = p;
-        }
-    }
-
-    pop() {
-        const h = this.h;
-        if (h.length === 0) return undefined;
-        const top = h[0];
-        const last = h.pop();
-        if (h.length > 0) {
-            h[0] = last;
-            let i = 0;
-            const n = h.length;
-            while (true) {
-                let l = i * 2 + 1, r = l + 1, s = i;
-                if (l < n && this.cmp(h[l], h[s]) < 0) s = l;
-                if (r < n && this.cmp(h[r], h[s]) < 0) s = r;
-                if (s === i) break;
-                [h[i], h[s]] = [h[s], h[i]];
-                i = s;
-            }
-        }
-        return top;
-    }
-}
 
 /**
  * 문제: Top K Frequent Elements
@@ -48,30 +6,25 @@ class Heap {
 var topKFrequent = function(nums, k) {
 
     // 값 -> 등장 횟수
+    // 객체 {} 대신 Map: 키가 문자열로 바뀌지 않아 음수/숫자 키를 그대로 쓸 수 있다
     let counter = new Map();
     nums.forEach((num) =>{
-        // null 분기를 직접 쓰지 않아도 되고, 람다에서 안 쓰는 key 파라미터도 사라진다
+        // 처음 보는 값은 undefined라서 ?? 로 0에서 시작
+        // || 는 0도 걸러 버리므로 "없음"만 걸러내는 ?? 가 의도에 맞다
         counter.set(num, (counter.get(num) ?? 0) + 1);
     });
 
-    // 빈도가 가장 낮은 원소가 맨 위에 오는 최소 힙, 크기는 k로 유지
-    // 전부 넣고 k번 꺼내는 대신 "상위 k개 후보"만 들고 가서 O(m log m) -> O(m log k)
-    // 빈도를 음수로 뒤집는 트릭이 필요 없다: 가장 약한 후보를 버리는 게 목적이라 최소 힙이 맞다
-    let heap = new Heap();
+    // 빈도(인덱스 1) 내림차순 정렬 -> 앞에서 k개가 곧 정답
+    // 정렬 대상은 원소 n개가 아니라 고유 값 m개뿐이라 O(m log m)
+    // m이 n에 가까우면 O(n log n)이 되므로, 후속 조건(더 빠르게)을 요구받으면 힙/버킷으로 바꿔야 한다
+    // 동률 순서는 문제가 정답의 유일성을 보장하므로 신경 쓰지 않아도 된다
+    const sortedMap = [...counter.entries()].sort((a, b) => b[1] - a[1]);
 
-    counter.forEach((key, value) => {
-        heap.push([value, key]);
-
-        if(heap.size() > k){
-            heap.pop();
-        }
-    })
-
-    console.log(counter);
-
-    return 0;
+    // slice는 범위를 넘어가도 예외 없이 있는 만큼만 돌려준다 (k > 고유 값 개수여도 안전, 문제 조건상 발생하지 않음)
+    // 결과에는 빈도가 아니라 값(인덱스 0)만 필요
+    return sortedMap.slice(0, k).map((each) => each[0]);
 };
 
 console.log(topKFrequent([1,1,1,2,2,3], 2));
-console.log(topKFrequent([1], 2));
+console.log(topKFrequent([1], 1));
 console.log(topKFrequent([1,2,1,2,1,2,3,1,3,2], 2));
