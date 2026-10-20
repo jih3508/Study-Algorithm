@@ -1,3 +1,7 @@
+"""
+Most Profit Assigning Work
+url: https://leetcode.com/problems/most-profit-assigning-work/description/
+"""
 class Solution:
     def maxProfitAssignment(self, difficulty: list[int], profit: list[int], worker: list[int]) -> int:
 
